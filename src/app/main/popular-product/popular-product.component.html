@@ -1,0 +1,10 @@
+<a [routerLink]="url" routerLinkActive="active" queryParamsHandling="merge">
+    <div class="popular-product" [style.background-image]="'url(' + bgImage + ')'">
+        <div class="wrapper d-flex align-items-center justify-content-center">
+            <div class="label text-center">
+                <span class="icon" [ngClass]="icon"></span>
+                <h5 class="popular-product-headline">{{text}}</h5>
+            </div>
+        </div>
+    </div>
+</a>

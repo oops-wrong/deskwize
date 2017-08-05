@@ -1,0 +1,118 @@
+@import "~styles/variables";
+
+.benefits {
+    &__description {
+        line-height: 1.7;
+        margin: 1rem 0;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0.3rem 0 1.2rem 3rem;
+            position: relative;
+
+            &:before {
+                background: url(/assets/images/shared/tick-inside-a-circle.svg) no-repeat;
+                background-size: cover;
+                content: '';
+                height: 2rem;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 2rem;
+            }
+        }
+    }
+}
+
+.step {
+    display: table;
+    margin-bottom: 52px;
+    position: relative;
+
+    &:after {
+        background: url("/assets/images/invoice-factoring/benefits/step-arrow.png") no-repeat center center;
+        bottom: -45px;
+        content: '';
+        height: 36px;
+        left: 47px;
+        position: absolute;
+        width: 17px;
+    }
+
+    &:last-child:after {
+        display: none;
+    }
+
+    &__image {
+        $size: 111px;
+
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: table-cell;
+        height: $size;
+        width: $size;
+    }
+
+    &__text {
+        display: table-cell;
+        padding: 0 0 0 1.5rem;
+        vertical-align: middle;
+    }
+}
+
+.title {
+    color: $color-green;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.theme-blue {
+    .benefits {
+        &__list {
+            li {
+                &:before {
+                    background: url(/assets/images/shared/tick-inside-a-circle-blue.svg) no-repeat;
+                }
+            }
+        }
+    }
+    .title {
+        color: $color-blue;
+    }
+}
+
+.theme-orange {
+    .benefits {
+        &__list {
+            li {
+                &:before {
+                    background: url(/assets/images/shared/tick-inside-a-circle-orange.svg) no-repeat;
+                }
+            }
+        }
+    }
+    .title {
+        color: $color-orange;
+    }
+}
+
+.theme-deep-green {
+    .benefits {
+        &__list {
+            li {
+                &:before {
+                    background: url(/assets/images/shared/tick-inside-a-circle-deep-green.svg) no-repeat;
+                }
+            }
+        }
+    }
+    .title {
+        color: $color-deep-green;
+    }
+}

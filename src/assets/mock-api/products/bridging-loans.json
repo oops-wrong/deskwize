@@ -1,0 +1,315 @@
+{
+    "color_theme": "blue",
+    "navbar": {
+        "headline": "Bridging Loans"
+    },
+    "header": {
+        "headline": "Bridging Finance <br/> rates from 0.44% pcm",
+        "headline2": "",
+        "checks": [
+            "Development Financing",
+            "Bridging Loans",
+            "Loans from £50,000 to over £20 million",
+            "Rates from 0.44% per month",
+            "Compare whole of market lenders",
+            "Quick decision in principle"
+        ],
+        "icons": [],
+        "icons_description": "",
+        "image": "assets/images/bridging-loans/hero-image.png"
+    },
+    "sections": [
+        {
+            "name": "blueline"
+        },
+        {
+            "name": "promotion",
+            "options": {
+                "title": "What are the benefits?",
+                "image": "assets/images/invoice-factoring/imgpsh_fullsize.jpeg",
+                "description": "<div class=\"mb-3 text-justify\"> Bridging loans are designed to help people complete the purchase of a property before selling their existing home by offering them short-term access to money at a high-rate of interest. Through <a href=\"/\">Deskwize.com</a> you will gain access to:</div>",
+                "items": [
+                    "Market wide panel of lenders",
+                    "High Acceptance Rates",
+                    "Same Day Decision",
+                    "Funds Available within 72 Hours",
+                    "No Maximum Loan Limit",
+                    "Financing available across Great Britain (Exclude Northern Ireland)",
+                    "All Tyes of Bridging Purpose",
+                    "First, Second and Third Charge Available"
+                ]
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-bottom-right"
+        },
+        {
+            "name": "benefits",
+            "options": {
+                "color_theme": "blue",
+                "title": "Getting a quote is quick and simple",
+                "list": {
+                    "description": "No matter the size or type of project you wish to embark upon, Deskwize will help find the right bridging solution for you.",
+                    "items": [
+                        "New build projects",
+                        "Small and large scale refurbishment projects",
+                        "Auction purchases",
+                        "Properties that fall short of BTL criteria",
+                        "Development projects with funding in stages"
+                    ],
+                    "title": "Funding available for a variety of purposes"
+                },
+                "steps": [
+                    {
+                        "description": "Complete the quick form",
+                        "image": "/assets/images/bridging-loans/benefits/step1.png",
+                        "title": "Step 1"
+                    },
+                    {
+                        "description": "Receive and compare no obligation quotes",
+                        "image": "/assets/images/bridging-loans/benefits/step2.png",
+                        "title": "Step 2"
+                    },
+                    {
+                        "description": "Receive your bridging loan",
+                        "image": "/assets/images/bridging-loans/benefits/step3.png",
+                        "title": "Step 3"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-top-left wave-merge-bottom"
+        },
+        {
+            "name": "readMore",
+            "options": {
+                "color_theme": "blue",
+                "title": "Understanding the <br/> bridging finance options",
+                "articles": [
+                    {
+                        "body": "This type of finance is typically used when you want to buy a new property while you sell your own or you want to renovate your current property with a view to either securing a mortgage against it or sell it at a higher price. Such loans are secured against at least one owned property or asset and are usually repaid when a more conventional mortgage can be arranged or when you sell the residential property at a higher price.",
+                        "features": [],
+                        "image": "assets/images/bridging-loans/residential.jpg",
+                        "fragment": "form",
+                        "title": "Residential bridging finance"
+                    },
+                    {
+                        "blueline": "true",
+                        "body": "Similar to Residential, in that at least one property or asset is used as security. This finance is available for Limited companies for a variety of purposes, such as cash flow injection, purchasing a new premises, purchase of stock asset, expansion plans etc. <br/><br/> Bridging finance in this instance is particularly useful as it can be arranged relatively quickly allowing businesses to be flexible in their planning. Exit strategies to pay off such finance may be a proven and guaranteed order book, selling of existing property, or obtaining a more conventional mortgage.",
+                        "features": [],
+                        "image": "assets/images/bridging-loans/commercial.jpg",
+                        "fragment": "form",
+                        "title": "Commercial bridging finance"
+                    },
+                    {
+                        "blueline": "true",
+                        "body": "Finance specifically designed for a wide variety of development projects, whether it be single residential plots, a housing estate project to industrial and commercial units. This type of finance is also available for conversion, restoration and renovation projects. <br/><br/> Development finance is similar to Bridging finance in respect to the short term and interest only nature of both solutions, however Development lending is based on the projects final Gross Development Value (GDV), that is the capital value of the completed project when sold to a willing purchaser on the open market. <br/><br/> With that in mind it allows for lending on a much larger scale and should the development increase in value as the project progresses further funds may be released, allowing up to 100% of the construction costs. <br/><br/> We have access to lenders that have helped provide funding solutions for development projects on a variety of levels, from the small scale singular residential conversions to multi-plot sites.",
+                        "features": [],
+                        "image": "assets/images/bridging-loans/development.jpg",
+                        "fragment": "form",
+                        "title": "Development finance"
+                    },
+                    {
+                        "blueline": "true",
+                        "body": "Auction finance can be arranged in principle ahead of an auction. You cannot guarantee that you will win the auction for a property, however you can arrange bridging finance ahead of the auction so that you can bid in confidence knowing you have finance arranged to give you the funds you need to complete the purchase. <br/><br/> Auction Bridging loans are also used when a property is deemed “unmortgageable” cases whereby a property you have purchased at auction doesn’t have a kitchen or a bathroom installed or there are no internal doors for example. Such properties are unlikely to be accepted by high street lenders who will view them as uninhabitable in their current state. A bridging loan will help you secure the property at the auction and may provide the funds you need to renovate the property to secure a mortgage against.",
+                        "features": [],
+                        "image": "assets/images/bridging-loans/auction.jpg",
+                        "fragment": "form",
+                        "title": "Auction finance"
+                    },
+                    {
+                        "blueline": "true",
+                        "body": "Financing that is largely used by developers where further access to finance may be required on top of existing funding. <br/><br/> As such Mezzanine Finance is usually secured on a Second Charge basis behind the developers initial funding for the project. Mezzanine lenders will tend to charge a higher rate of interest on the finance and will have agreements in place with the developer to receive an fixed percentage of the projects profit. We can provide funding for all size of developers.",
+                        "features": [],
+                        "image": "assets/images/bridging-loans/mezzanine.jpg",
+                        "fragment": "form",
+                        "title": "Mezzanine finance"
+                    }
+                ]
+            }
+        }
+    ],
+    "questionnaire": {
+        "slides": [
+            {
+                "button": "Compare Rates",
+                "headline": "What type of loan would you like?",
+                "checks": [
+                    {
+                        "label": "Personal bridging loan",
+                        "name": "loan",
+                        "value": "Personal bridging loan"
+                    },
+                    {
+                        "label": "Commercial bridging loan",
+                        "name": "loan",
+                        "value": "Commercial bridging loan"
+                    },
+                    {
+                        "label": "Auction financing",
+                        "name": "loan",
+                        "value": "Auction financing"
+                    },
+                    {
+                        "label": "Development financing",
+                        "name": "loan",
+                        "value": "Development financing"
+                    },
+                    {
+                        "label": "Refinance existing",
+                        "name": "loan",
+                        "value": "Refinance existing"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "loan",
+                        "value": "other"
+                    }
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"}
+                ]
+            },
+            {
+                "center": "true",
+                "inputs": [
+                    {
+                        "label": "Enter loan amount (£)",
+                        "name": "loan_amount ",
+                        "type": "number"
+                    },
+                    {
+                        "label": "Enter value of property or land (£)",
+                        "name": "property_land_value",
+                        "type": "number"
+                    }
+                ]
+            },
+            {
+                "headline": "Will you live in the proposed property?",
+                "checks": [
+                    {
+                        "label": "Yes",
+                        "name": "live_in_property",
+                        "value": "yes"
+                    },
+                    {
+                        "label": "No",
+                        "name": "live_in_property",
+                        "value": "no"
+                    },
+                    {
+                        "label": "Other / Not applicable",
+                        "name": "live_in_property",
+                        "value": "other"
+                    }
+                ]
+            },
+            {
+                "headline": "Over what term do you require the loan?",
+                "checks": [
+                    {
+                        "label": "1 - 3 Months",
+                        "name": "loan_require",
+                        "value": "1-3"
+                    },
+                    {
+                        "label": "3 - 6 Months",
+                        "name": "loan_require",
+                        "value": "3-6"
+                    },
+                    {
+                        "label": "6 - 9 Months",
+                        "name": "loan_require",
+                        "value": "6-9"
+                    },
+                    {
+                        "label": "9 - 12 Months",
+                        "name": "loan_require",
+                        "value": "9-12"
+                    },
+                    {
+                        "label": "Over 12 Months",
+                        "name": "loan_require",
+                        "value": "over 12"
+                    },
+                    {
+                        "label": "Not sure",
+                        "name": "live_in_property",
+                        "value": "not sure"
+                    }
+                ]
+            },
+            {
+                "headline": "What will be the status of this charge?",
+                "checks": [
+                    {
+                        "label": "First charge",
+                        "name": "charge",
+                        "value": "First charge"
+                    },
+                    {
+                        "label": "Second charge",
+                        "name": "charge",
+                        "value": "Second charge"
+                    },
+                    {
+                        "label": "Third charge",
+                        "name": "charge",
+                        "value": "Third charge"
+                    },
+                    {
+                        "label": "Other / Not applicable",
+                        "name": "charge",
+                        "value": "other"
+                    }
+                ]
+            },
+            {
+                "headline": "Hold on - we’re finding lenders <br/> that best match your needs",
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"},
+                    {"label": "autoslide", "value": "2000"}
+                ]
+            },
+            {
+                "center": "true",
+                "button": "Get Rates",
+                "headline": "Good news! We’ve found lenders <br/> that match your requirements. <br/> Complete your details to get your free quotes.",
+                "inputs": [
+                    {
+                        "label": "Your full name",
+                        "name": "contact_f_name"
+                    },
+                    {
+                        "label": "Your telephone number",
+                        "name": "telephone"
+                    },
+                    {
+                        "label": "Your email address",
+                        "name": "email",
+                        "type": "email"
+                    }
+                ],
+                "style": "blue"
+            },
+            {
+                "headline": "Thanks for choosing Deskwize.com, our teams are now working to find you the best match.",
+                "descriptions": [
+                    "Need to speak to us now? You can call up quoting your unique reference number 1000313183",
+                    "0208 003 1110 (8am - 8pm, Monday to Friday)"
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"}
+                ],
+                "style": "blue"
+            }
+        ]
+    },
+    "questionnaire_url": "some-url"
+}

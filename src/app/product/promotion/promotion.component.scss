@@ -1,0 +1,27 @@
+.content-blue {
+    .description {
+        ul {
+            padding-left: 0;
+            li {
+                list-style: none;
+                margin-bottom: 0.5rem;
+                position: relative;
+                padding-left: 2rem;
+
+                &:after {
+                    background: url(/assets/images/product/check-blue.svg) no-repeat;
+                    background-size: contain;
+                    content: '';
+                    height: 22px;
+                    left: 0;
+                    position: absolute;
+                    top: 4px;
+                    width: 22px;
+                }
+            }
+        }
+    }
+}
+.promotion-list {
+    border: 4px solid black;
+}

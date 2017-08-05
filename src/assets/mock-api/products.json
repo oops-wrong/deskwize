@@ -1,0 +1,55 @@
+[
+	{
+		"slug_product": "merchant-accounts",
+		"slug_version": "",
+		"matches": [
+			"merchant accounts"
+		],
+		"display": "Merchants Accounts"
+	},
+	{
+		"slug_product": "invoice-factoring",
+		"slug_version": "",
+		"matches": [
+			"invoice",
+			"invoice factoring",
+			"debt factoring"
+		],
+		"display": "Invoice Factoring"
+	},
+	{
+		"slug_product": "bridging-loans",
+		"slug_version": "",
+		"matches": [
+			"bridging loans",
+			"development finance",
+			"Auction Finance"
+		],
+		"display": "Bridging Loans"
+	},
+    {
+    "slug_product": "vehicle-tracking",
+    "slug_version": "",
+    "matches": [
+        "vehicle tracking",
+        "fleet management"
+    ],
+    "display": "Vehicle tracking"
+    },
+	{
+		"slug_product": "crm-software",
+		"slug_version": "",
+		"matches": [
+			"crm software",
+			"crm platform",
+			"crm system"
+		],
+		"display": "CRM Software"
+	},
+	{
+		"slug_product": "invoice-factoring",
+		"slug_version": "new-offers",
+		"matches": [],
+		"display": ""
+	}
+]

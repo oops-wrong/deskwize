@@ -1,0 +1,36 @@
+<div class="header-component theme-{{theme}}">
+    <div class="container product-image-wrap d-flex justify-content-center pb-4 hidden-sm-down">
+        <div class="product-image d-flex">
+            <div class="d-flex align-items-stretch justify-content-center">
+                <span [style.background-image]="'url(' + product.header.image + ')'"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-7 col-md-12 text-center text-md-left">
+                <div *ngIf="product.header.headline" class="text-header h1 mb-4 mb-md-2" [innerHtml]="product.header.headline"></div>
+                <div *ngIf="product.header.headline2" class="text-header hidden-sm-down h2 pt-2 mb-2" [innerHtml]="product.header.headline2"></div>
+                <div *ngIf="product.header.description" class="hidden-sm-down pt-2" [innerHtml]="product.header.description"></div>
+                <ul *ngIf="product.header.checks" class="check-list hidden-sm-down pt-3">
+                    <li *ngFor="let check of product.header.checks" [innerHTML]="check"></li>
+                </ul>
+                <div *ngIf="product.header.icons" class="hidden-sm-down">
+                    <div *ngIf="product.header.icons_description" class="icons-description">{{product.header.icons_description}}</div>
+                    <ul class="list-inline d-inline-block payment-icons pt-4">
+                        <li *ngFor="let icon of product.header.icons" class="list-inline-item">
+                            <img [src]="icon" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 pb-4 pb-lg-5">
+                <prod-questionnaire
+                    [model]="submitModel"
+                    [questionnaire]="product.questionnaire"
+                    (lastSlide)="sendQuestionnaire()"
+                ></prod-questionnaire>
+            </div>
+        </div>
+    </div>
+</div>

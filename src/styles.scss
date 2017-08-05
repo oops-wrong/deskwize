@@ -1,0 +1,212 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+@import 'styles/variables';
+@import 'styles/helpers';
+@import 'styles/media';
+@import './assets/fonts/flaticon';
+
+body,
+html {
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+apt-root,
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: $color-text;
+}
+
+.box-shadow-menu {
+    $heightOfLine: 3px;
+    $heightOfSpace: 6px;
+
+    border-top: $heightOfLine solid #fff;
+    cursor: pointer;
+    height: 0.15rem * 5;
+    position: relative;
+    width: 1.3em;
+
+    &:before {
+        background: transparent;
+        border-bottom: $heightOfLine solid #fff;
+        border-top: $heightOfLine solid #fff;
+        box-sizing: content-box;
+        content: "";
+        height: $heightOfSpace;
+        left: 0;
+        position: absolute;
+        top: $heightOfSpace;
+        width: 100%;
+    }
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: $main-bg-color;;
+}
+
+$wave-white-path:'./assets/images/waves/wave-white.svg';
+$wave-gray-path:'./assets/images/waves/wave-gray.svg';
+
+.wave {
+    background-size: 106%, 100% !important;
+    padding-top: 4.50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &-white-top-left {
+        transform: scaleX(-1) rotateX(180deg);
+        background-image: url($wave-white-path);
+    }
+
+    &-white-top-right {
+        transform: rotateX(180deg);
+        background-image: url($wave-white-path);
+    }
+
+    &-white-bottom-left {
+        transform: scaleX(-1);
+        background-image: url($wave-white-path);
+    }
+
+    &-white-bottom-right {
+        background-image: url($wave-white-path);
+    }
+
+    &-gray-top-left {
+        transform: scaleX(-1) rotateX(180deg);
+        background-image: url($wave-gray-path);
+    }
+
+    &-gray-top-right {
+        transform: rotateX(180deg);
+        background-image: url($wave-gray-path);
+    }
+
+    &-gray-bottom-left {
+        transform: rotateX(-1);
+        background-image: url($wave-gray-path);
+    }
+
+    &-gray-bottom-right {
+        background-image: url($wave-gray-path);
+    }
+}
+
+.wave-cover-top {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -2px;
+}
+
+.wave-cover-bottom {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+}
+
+.wave-merge-bottom {
+    position: relative;
+    bottom: -2px;
+}
+
+.btn-blue {
+    background: $color-line;
+    border-color: $color-line;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.btn-read-more {
+    $padding-y: 0.8em;
+
+    background: $color-line;
+    border-color: $color-line;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-left: $padding-y;
+    padding-right: $padding-y - 0.15em;
+
+    &:after {
+        background: url(/assets/images/shared/right-arrow-circular-button.svg) no-repeat;
+        background-size: contain;
+        content: '';
+        display: inline-block;
+        height: 1.3em;
+        margin: 0 0 0.1em 0.4em;
+        vertical-align: middle;
+        width: 1.3em;
+    }
+}
+
+.img-max-width {
+    img {
+        max-width: 100%;
+    }
+}
+
+.btn-questionnaire {
+    &:hover {
+      background: linear-gradient(to right, #ec971f, #ec971f);
+      border-color: #eb9316;
+    }
+    &:active {
+      background: linear-gradient(to right, rgb(227, 55, 47) 0%, rgb(230, 125, 40) 100%);
+      border-color: #eb9316;
+    }
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(227, 55, 47) 0%, rgb(230, 125, 40) 100%);
+    border: 0;
+    border-radius: 25px;
+    color: #fff !important;
+    letter-spacing: 0.05em;
+    padding: 0.3rem;
+    text-transform: uppercase;
+
+    &__text {
+        font-size: 16px;
+        letter-spacing: 0;
+        padding-left: 1.5rem;
+        padding-right: 0.8rem;
+
+        @include media("<=sm") {
+            padding-left: 0.3rem;
+            padding-right: 0;
+        }
+    }
+
+    .glyph-icon {
+        font-size: 2rem;
+        line-height: 1;
+        vertical-align: middle;
+
+        @include media("<sm") {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.theme-bg-blue {
+  background-image: url('./assets/images/product/benefits_bg_blue.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-blue .description ul li{
+  list-style: none;
+  margin-bottom: 0.5rem;
+}

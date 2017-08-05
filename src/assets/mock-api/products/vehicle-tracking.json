@@ -1,0 +1,428 @@
+{
+	"color_theme": "deep-green",
+	"navbar": {
+		"headline": "Vehicle tracking"
+	},
+	"header": {
+		"headline": "Get the best<br />Vehicle Tracking deal.",
+		"description": "<p>and you could benefit from:</p>",
+		"checks": [
+			"<b>Reduced</b> Fuel Costs",
+			"Improved <b>Theft Prevention</b>",
+			"Optimized Operational <b>Efficiency</b>",
+			"Ensure your <b>Employees'</b> Safety",
+			"Get a <b>Quick Quote</b> Today!"
+		],
+		"image": "assets/images/vehicle-tracking/hero-circle.jpg"
+	},
+	"sections": [
+		{
+			"name": "briefFeaturesLots",
+			"options": {
+				"blueline": true,
+				"noSpace": true,
+				"title": "Helping you find the right Vehicle Tracking system",
+				"features": [
+					{
+						"title": "Fuel Saving",
+						"description": "Save fuel and money.",
+						"subDescription": "Learn more...",
+						"image": "assets/images/vehicle-tracking/fuel-saving.jpg"
+					},
+					{
+						"title": "Route Planing",
+						"description": "Plan your route efficiently.",
+						"subDescription": "Learn more...",
+						"image": "assets/images/vehicle-tracking/route-planning.jpg"
+					},
+					{
+						"title": "Safety",
+						"description": "Ensure driver safety.",
+						"subDescription": "Learn more...",
+						"image": "assets/images/vehicle-tracking/safety.jpg"
+					},
+					{
+						"title": "Theft Prevention",
+						"description": "Track your fleets in real time.",
+						"subDescription": "Learn more...",
+						"image": "assets/images/vehicle-tracking/theft-prevention.jpg"
+					},
+					{
+						"title": "Compliance",
+						"description": "Track your drivers' adherence to road rules and regulations.",
+						"subDescription": "Learn more...",
+						"image": "assets/images/vehicle-tracking/compliance.jpg"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-bottom-right"
+		},
+		{
+			"name": "benefits",
+			"options": {
+				"title": "Getting a quote is quick and simple",
+				"color_theme": "deep-green",
+				"blueline": true,
+				"list": {
+					"description": "Vehicle tracking offers a range of benefits, from saving money, to gaining the ability to settle disputes over working hours and fuel claims. Benefits include:",
+					"items": [
+						"<b>Save money</b> - by reducing both fuel costs and vehicle wear and tear",
+						"<b>Make money</b> - by creating a more efficient mobile workforce and cutting delivery times",
+						"<b>Gain insights</b> - into employee driving behaviours, utilising correctional training in fuel-efficient driving & reducing vehicle strain",
+						"<b>Geo-fencing alerts</b> - tells you when a vehicle leaves its designated route or area",
+						"Compare quotes & <b>save up to 30%</b>"
+					],
+					"title": "What are the benefits?"
+				},
+				"steps": [
+					{
+						"description": "Complete the quick form",
+						"image": "/assets/images/vehicle-tracking/benefits/step1.png",
+						"title": "Step 1"
+					},
+					{
+						"description": "Receive and compare no obligation quotes",
+						"image": "/assets/images/vehicle-tracking/benefits/step2.png",
+						"title": "Step 2"
+					},
+					{
+						"description": "Start tracking your vehicles!",
+						"image": "/assets/images/vehicle-tracking/benefits/step3.png",
+						"title": "Step 3"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-top-left wave-merge-bottom"
+		},
+		{
+			"name": "feature",
+			"options": {
+				"blueline": true,
+				"width": "50",
+				"theme": "deep-green",
+				"title": "Fuel Savings",
+				"description": "There are several ways in which being able to track your fleet will also enable you to cut fuel costs, some examples include:",
+				"image": "assets/images/vehicle-tracking/fuel-saving.jpg",
+				"prosList": [
+					{
+						"image": "assets/images/product/icons/timer-icon-green.png",
+						"description": "The ability to track speed patterens will help with fuel efficiency"
+					},
+					{
+						"image": "assets/images/product/icons/clock-icon-green.png",
+						"description": "Reducing engine idle time will reduce fuel consumption"
+					},
+					{
+						"image": "assets/images/product/icons/phone-icon-green.png",
+						"description": "Easily record fuel purchases, aiding the management of fuel expenses"
+					}
+				],
+				"direction": "left"
+			}
+		},
+		{
+			"name": "feature",
+			"options": {
+				"blueline": true,
+				"theme": "deep-green",
+				"title": "Route Planning and Management",
+				"description": "To become profitable and streamlined, a company must optimise their route planning - Tracking enables truely efficient and reactive route management.",
+				"image": "assets/images/vehicle-tracking/route-planning.jpg",
+				"prosList": [
+					{
+						"image": "assets/images/product/icons/wifi-icon-green.png",
+						"description": "Real-time traffic updates warn drivers of any traffic delays and redirects them to another route"
+					},
+					{
+						"image": "assets/images/product/icons/shield-icon-green.png",
+						"description": "Tracking assists in finding the optimum route for fuel efficiency"
+					},
+					{
+						"image": "assets/images/product/icons/geo-icon-green.png",
+						"description": "Geo-fencing enables alerts to be set, notifying you in the event of a vehicle leaving its' designated route or area"
+					},
+					{
+						"image": "assets/images/product/icons/diagram-icon-green.png",
+						"description": "See where every tracked vehicle is at any given time and receive immediate updates about any issues"
+					}
+				],
+				"direction": "right"
+			}
+		},
+		{
+			"name": "feature",
+			"options": {
+				"blueline": true,
+				"theme": "deep-green",
+				"title": "Employee Safety",
+				"description": "Keeping your employees safe has now been made a little easier with the help of advanced vehicle tracking systems. Find peace of mind, knowing:",
+				"image": "assets/images/vehicle-tracking/safety.jpg",
+				"prosList": [
+					{
+						"image": "assets/images/product/icons/video-icon-green.png",
+						"description": " The video or still images captured by the tracking system can assist in the event of an accident or stolen vehicles, increasing employee safety"
+					},
+					{
+						"image": "assets/images/product/icons/checkbox-icon-green.png",
+						"description": "Active fleet management allows for identifying poor driving habits, such as speeding or harsh breakes"
+					},
+					{
+						"image": "assets/images/product/icons/diagram-icon-green.png",
+						"description": "Gain transparency through analytics - identify unnecessary idleness or the driver's adherence to traffic laws"
+					},
+					{
+						"image": "assets/images/product/icons/people-icon-green.png",
+						"description": "Training programs can be offered where needed to improve drivers' safety on the road"
+					}
+				],
+				"direction": "left"
+			}
+		},
+		{
+			"name": "feature",
+			"options": {
+				"blueline": true,
+				"theme": "deep-green",
+				"title": "Theft Prevention",
+				"description": "A loss of income, shaken confidence, and detrimental effects on your business overall mean vehicle security and protection needs to be a priority.",
+				"image": "assets/images/vehicle-tracking/theft-prevention.jpg",
+				"prosList": [
+					{
+						"image": "assets/images/product/icons/wifi-icon-green.png",
+						"description": "Alerts and notifactions can be activated to ensure security via the vehicle tracking system"
+					},
+					{
+						"image": "assets/images/product/icons/geo-icon-green.png",
+						"description": "A stolen vehicle can be easily tracked down"
+					},
+					{
+						"image": "assets/images/product/icons/shield-icon-green.png",
+						"description": " If there is a sudden change in a vehicle's planned route or it moves without authorisation, an alarm will be triggered"
+					},
+					{
+						"image": "assets/images/product/icons/phone-icon-green.png",
+						"description": " In case of emergency, several functions can be activated remotely from the device, such as engine immobilisation, and central locking system, etc."
+					}
+				],
+				"direction": "right"
+			}
+		},
+		{
+			"name": "feature",
+			"options": {
+				"blueline": true,
+				"theme": "deep-green",
+				"title": "Compliance",
+				"description": "Complying with the law is paramount, unfortunately fleet compliance can be complex. Vehicle tracking can help simplify it - by streamlining compliance management into a single application, making it accurate and automated, enabling you to easily align processes with policy.",
+				"image": "assets/images/vehicle-tracking/compliance.jpg",
+				"prosList": [
+					{
+						"image": "assets/images/product/icons/calendar-icon-green.png",
+						"description": "Vehicle diagnostic reports set automated reminders for vehicle servicing and notiy the service centers and drivers"
+					},
+					{
+						"image": "assets/images/product/icons/people-icon-green.png",
+						"description": "Monitoring a vehicle's current location will help improve communications with customers - ultimately leading to an improved customer service"
+					},
+					{
+						"image": "assets/images/product/icons/diagram-icon-green.png",
+						"description": "Tracking reports assist in framing fleet management strategies"
+					},
+					{
+						"image": "assets/images/product/icons/checkbox-icon-green.png",
+						"description": "GPS vehicle tracking records are monitored by the insurance companies to adjust and reduce the charges - ensuring you are never overcharged"
+					}
+				],
+				"direction": "left"
+			}
+		}
+	],
+	"questionnaire": {
+		"slides": [
+			{
+				"button": "Compare Prices",
+				"headline": "How many vehicles do you need to track?",
+				"checks": [
+					{
+						"label": "Less than 3",
+						"name": "count",
+						"value": "false"
+					},
+					{
+						"label": "3-10",
+						"name": "count",
+						"shift": "2",
+						"value": "1"
+					},
+					{
+						"label": "11-25",
+						"name": "count",
+						"shift": "2",
+						"value": "3"
+					},
+					{
+						"label": "26-50",
+						"name": "count",
+						"shift": "2",
+						"value": "4"
+					},
+					{
+						"label": "50+",
+						"name":"count",
+						"shift":"2",
+						"value": "5"
+					}
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					}
+				]
+			},
+			{
+				"headline": "Is this a business request?",
+				"center": "true",
+				"checks": [
+					{
+						"label": "Yes",
+						"name": "business_request",
+						"value": "true"
+					},
+					{
+						"label": "No",
+						"name": "business_request",
+						"value": "false"
+					}
+				]
+			},
+			{
+				"headline": "What do you need to track?",
+				"center": "true",
+				"checks": [
+					{
+						"label": "Cars",
+						"name": "what_track1",
+						"type": "checkbox",
+						"value": "cars",
+						"required": "false"
+					},
+					{
+						"label": "trucks",
+						"name": "what_track2",
+						"type": "checkbox",
+						"value": "trucks",
+						"required": "false"
+					},
+					{
+						"label": "Vans",
+						"name": "what_track3",
+						"type": "checkbox",
+						"value": "vans",
+						"required": "false"
+					},
+					{
+						"label": "Motorcycles",
+						"name": "what_track4",
+						"type": "checkbox",
+						"value": "motorcycles",
+						"required": "false"
+					}
+				],
+				"inputs": [
+					{
+						"label": "Other, please specific",
+						"name": "what_track5",
+						"required": "false"
+					}
+				]
+			},
+			{
+				"headline": "Your postcode ensures quotes are as accurate as possible for your area",
+				"center":"true",
+				"style": "blue",
+				"inputs": [
+					{
+						"label": "Your company's postcode",
+						"name": "business_postcode",
+						"pattern": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+					}
+				]
+			},
+			{
+				"headline": "Hold on - we're finding suppliers that best match your needs",
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					},
+					{
+						"label": "hidenext",
+						"value": "true"
+					},
+					{
+						"label": "autoslide",
+						"value": "2000"
+					}
+				]
+			},
+			{
+				"headline": "Good news! We've found suppliers that match your requirements.<br>Complete your details to get your free quotes",
+				"style": "blue",
+				"center":"true",
+				"inputs": [
+					{
+						"label": "Your full name",
+						"name": "contact_f_name"
+					},
+					{
+						"label": "Your company's name",
+						"name": "contact_title"
+					}
+				]
+			},
+			{
+				"headline": "So we can get in touch with the quotes",
+				"button": "Get Quotes Now",
+				"style": "blue",
+				"center":"true",
+				"inputs": [
+					{
+						"label": "Your email address",
+						"name": "email",
+						"type": "email"
+					},
+					{
+						"label": "Your phone number",
+						"name": "telephone"
+					}
+				]
+			},			
+			{
+				"headline": "Thanks for choosing Deskwize, our teams are now working to find you the best match",
+				"descriptions": [
+					"In the meantime, take a look at our other business products.",
+					"Need to speak to us now? You can call us quoting your unique reference number 1000321291"
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					},
+					{
+						"label": "hidenext",
+						"value": "true"
+					}
+				],
+				"style": "blue"
+			}
+		]
+	},
+	"questionnaire_url": "some-url"
+}

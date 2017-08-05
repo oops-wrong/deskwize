@@ -1,0 +1,32 @@
+@import "~styles/variables";
+
+.partners {
+    padding: 55px 40px 70px;
+
+    &__title {
+        color: $color-green;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__btn {
+        text-align: center;
+    }
+    .btn-questionnaire {
+        background: #E7702C;
+        font-size: 0.8rem;
+    }
+
+    &__icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+    &__icon {
+        align-items: center;
+        display: flex;
+        margin: 30px 0;
+    }
+}

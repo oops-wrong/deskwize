@@ -1,0 +1,366 @@
+{
+	"color_theme": "orange",
+	"navbar": {
+		"headline": "CRM Software"
+	},
+	"header": {
+		"headline": "Compare Top CRM Systems",
+		"headline2": "",
+		"checks": [
+			"Understand your customers' <b>purchase behaviour</b>",
+			"Improve <b>customer relations</b>",
+			"Refine marketing strategy",
+			"Nurture your relationships",
+			"<b>Enhance</b> your customer data"
+		],
+		"icons": [],
+		"icons_description": "",
+		"image": "assets/images/crm-software/hero-image.jpg"
+	},
+	"sections": [
+		{
+			"name": "briefFeaturesLots",
+			"options": {
+				"blueline": true,
+				"noSpace": false,
+				"title": "Helping you find the right CRM system",
+				"features": [
+					{
+						"title": "On-site CRM",
+						"description": "Gain full control over your client information",
+						"subDescription": "Learn more...",
+						"image": "assets/images/crm-software/on-site-crm.jpg"
+					},
+					{
+						"title": "Cloud Based CRM",
+						"description": "Save money on installation costs and maintenance",
+						"subDescription": "Learn more...",
+						"image": "assets/images/crm-software/cloud-crm.jpg"
+					},
+					{
+						"title": "CRM Applications",
+						"description": "Access your data on the go",
+						"subDescription": "Learn more...",
+						"image": "assets/images/crm-software/CRM-apps.jpg"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-bottom-right"
+		},
+		{
+			"name": "benefits",
+			"options": {
+				"color_theme": "orange",
+				"title": "Getting a quote is quick and simple",
+				"list": {
+					"description": "CRM systems offer a range of benefits, from managing projects and campaigns to giving you mobile access to your data while you are on the go.",
+					"items": [
+						"<b>Precision targeted marketing campaigns</b> - Detailed analytics give you indepth insights into your customers' purchase behaviour and relations data",
+						"<b>Big data</b> - Organis and manage large volumes of leads and data points effortlessly",
+						"<b>Customer Profiles</b> - Build and segment your own customer database",
+						"<b>Visual data</b> - Make impactful presentations with easy access to visual data points",
+						"<b>Cultivate relations</b> - Set reminders for customer milestones, such as anniversaries, to send personalised messages",
+						"<b>Effective remarketing capabilities</b> - Track customer purchase history to notify them about similar products",
+						"<b>Know your ROI</b> - Indepth reporting on sales performance allows for calculation of your Return on Investment"
+					],
+					"title": "Funding available for a variety of purposes"
+				},
+				"steps": [
+					{
+						"description": "Complete the quick form",
+						"image": "/assets/images/orange/benefits/step1.png",
+						"title": "Step 1"
+					},
+					{
+						"description": "Receive and compare no obligation quotes",
+						"image": "/assets/images/orange/benefits/step2.png",
+						"title": "Step 2"
+					},
+					{
+						"description": "Start managing your customer relations!",
+						"image": "/assets/images/orange/benefits/step3.png",
+						"title": "Step 3"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-top-left wave-merge-bottom"
+		},
+		{
+			"name": "relation",
+			"bg": "white",
+			"options": {
+				"color_theme": "orange",
+				"order": 1,
+				"body": "<p>This option is suitable for large organisations with more flexible budgets. The CRM software us installed onto your network by an engineer from your software provider.</p>",
+				"title": "On-site CRM",
+				"list": {
+					"items":[
+						"CRM database is stored locally",
+						"CRM software runs on your own hardware and is managed internally",
+						"No database size limitation",
+						"Expanded options for integration with other applicaitons",
+						"Flexibility to determine when you want to upgrade"
+					]
+				},
+				"sub_component": {
+					"name": "image",
+					"options": "/assets/images/crm-software/on-site-crm.jpg"
+				}
+			}
+		},
+		{
+			"name": "relation",
+			"bg": "white",
+			"options": {
+				"color_theme": "orange",
+				"blueline": true,
+				"order": 2,
+				"body": "<p>A flexible option; this type of CRM system works well for small to medium companies as data is stored on the cloud - reducing software installation, hardware and maintenance costs. You only pay for the amount of data you use and the number of users.</p>",
+				"title": "Cloud Based CRM",
+				"list": {
+					"items":[
+						"Data is stored online but is secured and private to you",
+						"Subscription fee enable lower and start-up costs",
+						"Get up and running quickly",
+						"Fast, reliable and scalabale environment",
+						"No hardware or IT infrastructure required",
+						"No software maintenance or backup costs",
+						"No software license costs"
+					]
+				},
+				"sub_component": {
+					"name": "image",
+					"options": "/assets/images/crm-software/cloud-crm.jpg"
+				}
+			}
+		},
+		{
+			"name": "relation",
+			"bg": "white",
+			"options": {
+				"color_theme": "orange",
+				"blueline": true,
+				"order": 2,
+				"body": "<p>CRM applications can be downloaded on different operating systems, depending on the software provider. Gain access to your data from anywhere and at anytime through a mobile app. This can be an invaluable tool for the sales teams out in the field.</p>",
+				"title": "CRM Applications",
+				"list": {
+					"items":[
+						"Easy to use with little installation or setup",
+						"Access your data on the go",
+						"Have the data at hand to support your responses whilst in meetings",
+						"compatible with both on-site and cloud systems"
+					]
+				},
+				"sub_component": {
+					"name": "image",
+					"options": "/assets/images/crm-software/CRM-apps.jpg"
+				}
+			}
+		}
+	],
+	"questionnaire": {
+		"slides": [
+			{
+				"button": "Compare Rates",
+				"headline": "How many users is the system for?",
+				"checks": [
+					{
+						"label": "1 - 4",
+						"name": "users",
+						"value": "1 - 4"
+					},
+					{
+						"label": "5 - 9",
+						"name": "users",
+						"value": "5 - 9"
+					},
+					{
+						"label": "10 - 24",
+						"name": "users",
+						"value": "10 - 24"
+					},
+					{
+						"label": "25 - 49",
+						"name": "users",
+						"value": "25 - 49"
+					},
+					{
+						"label": "50+",
+						"name": "users",
+						"value": "50+"
+					}
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					}
+				]
+			},
+			{
+				"headline": "How many employees are in your organisation?",
+				"checks": [
+					{
+						"label": "Under 10",
+						"name": "employees",
+						"value": "9"
+					},
+					{
+						"label": "10 - 49",
+						"name": "employees",
+						"value": "49"
+					},
+					{
+						"label": "50 - 99",
+						"name": "employees",
+						"value": "99"
+					},
+					{
+						"label": "100 +",
+						"name": "employees",
+						"value": "101"
+					}
+				]
+			},{
+				"headline": "What do you need the CRM software to do?",
+				"center": "true",
+				"checks":[
+					{
+						"label": "Manage contacts database",
+						"name": "manage_contacts",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{
+						"label": "Sales automation",
+						"name": "sales_automation",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{	
+						"label": "Sales reporting",
+						"name": "sales_reporting",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{
+						"label": "Client Management",
+						"name": "client_management",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{
+						"label": "Bulk email",
+						"name": "bulk_email",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					}
+				]
+			},
+			{
+				"headline": "What contact management software are you currently using?",
+				"checks": [
+					{
+						"label": "Gmail",
+						"name": "gmail",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{
+						"label": "Outlook",
+						"name": "outlook",
+						"type": "checkbox",
+						"value": "true",
+						"required": "false"
+					},
+					{
+						"label": "Yahoo",
+						"name": "yahoo",
+						"type": "checkbox",
+						"required": "false",
+						"value": "true"
+					},
+					{
+						"label": "Other / Unsure",
+						"name": "other_contact_management",
+						"type": "checkbox",
+						"required": "false",
+						"value": "true"
+					}
+				]
+			},
+			{
+				"headline": "Your postcode ensures quotes are as accurate as possible for your area",
+				"center":"true",
+				"style": "blue",
+				"inputs": [
+					{
+						"label": "Your company's postcode",
+						"name": "business_postcode",
+						"pattern": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+					}
+				]
+			},
+			{
+				"headline": "Hold on - we're finding suppliers that best match your needs",
+				"props": [
+					{"label": "hideback", "value": "true"},
+					{"label": "hidenext", "value": "true"},
+					{"label": "autoslide", "value": "2000"}
+				]
+			},
+			{
+				"center": "true",
+				"button": "Get Quotes",
+				"headline": "Good news! We’ve found lenders <br/> that match your requirements. <br/> Complete your details to get your free quotes.",
+				"inputs": [
+					{
+						"label": "Your full name",
+						"name": "contact_f_name"
+					},
+					{
+						"label": "Your telephone number",
+						"name": "telephone"
+					},
+					{
+						"label": "Your email address",
+						"name": "email",
+						"type": "email"
+					}
+				],
+				"style": "blue"
+			},
+			{
+				"headline": "Thanks for choosing Deskwize.com, our teams are now working to find you the best match.",
+				"descriptions": [
+					"Need to speak to us now? You can call up quoting your unique reference number 1000313183",
+					"0208 003 1110 (8am - 8pm, Monday to Friday)"
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					},
+					{
+						"label": "hidenext",
+						"value": "true"
+					}
+				],
+				"style": "blue"
+			}
+		]
+	},
+	"questionnaire_url": "some-url"
+}

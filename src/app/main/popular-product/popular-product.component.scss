@@ -1,0 +1,50 @@
+.popular-product {
+    overflow: hidden;
+    position: relative;
+    height: 322px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.wrapper {
+    height: 322px;
+    border-radius: 6px;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        background-color: rgba(#000, .6);
+        transition: all 400ms;
+    }
+    &:hover:before {
+        opacity: 0;
+        transition: all 200ms;
+    }
+}
+.popular-product-headline {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.label {
+    z-index: 1;
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 56px;
+    background-image: url("/assets/images/popular/icons.png");
+    @for $i from 0 through 5 {
+        &.icon_#{$i+1} {
+            background-position: -50px * $i 0
+        }
+    }
+}
+a {
+    text-decoration: none;
+}

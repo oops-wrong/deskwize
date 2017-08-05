@@ -1,0 +1,18 @@
+<div class="find-product row no-gutters">
+    <div class="col-md-8">
+        <ng2-completer
+            (selected)="productSelected($event)"
+            *ngIf="dataService"
+            [datasource]="dataService"
+            [minSearchLength]="0"
+            inputClass="find-product__input w-100 px-3"
+            inputName="productName"
+            placeholder="What can we help you find today?"
+            textNoResults="No Results Found"
+            type="text"
+        ></ng2-completer>
+    </div>
+    <div class="col-md-4 pt-2 pt-md-0 pl-md-2">
+        <button class="find-product__btn btn btn-primary btn-blue w-100" (click)="goToProduct()" type="button">Get started</button>
+    </div>
+</div>

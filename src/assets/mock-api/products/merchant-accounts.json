@@ -1,0 +1,410 @@
+{
+    "color_theme":"",
+    "navbar": {
+        "headline": "Merchants Accounts"
+    },
+    "header": {
+        "headline": "Start taking card payments today",
+        "description": "<p>We compare the UK's leading card merchant <br/>service providers.</p> <p> Save up to 40% with our no <br/> obligation quote service. </p>",
+        "icons": [
+            "/assets/images/payments/visa_bg.png",
+            "/assets/images/payments/vpay.png",
+            "/assets/images/payments/mastercard.png",
+            "/assets/images/payments/maestro.png",
+            "/assets/images/payments/american_bg.png"
+        ],
+        "image": "assets/images/product/card_machine_big.png"
+    },
+    "sections": [
+        {
+            "name": "blueline"
+        },
+        {
+            "name": "promotion",
+            "options": {
+                "title": "Finding business products & services made painless",
+                "image": "assets/images/product/macbook.png",
+                "description": "<div class=\"mb-3 text-justify\">Deskwize is an online platform that helps business professionals to learn, find and compare the products and the services they require for their business. By getting tailored quotes from the top providers we save you a lot of time and get you the best providers at the most competitive prices. So, let us do the hard work.</div><div class=\"h3 font-weight-bold\">Sit back, relax and wait for those quotes to come to you.</div>"
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-bottom-right"
+        },
+        {
+            "name": "briefFeatures",
+            "options": {
+                "title": "Helping you find the right payment solution",
+                "features": [{
+                    "title": "Card Machines",
+                    "description": "Choose from countertop, portable and mobile credit card terminals.",
+                    "image": "assets/images/product/card_machine_big.png"
+                },
+                    {
+                        "title": "Online Payments",
+                        "description": "Get set up with everything you need to start processing payments online.",
+                        "image": "assets/images/product/online_payments_big.png"
+                    },
+                    {
+                        "title": "Payments By Phone",
+                        "description": "Start taking payments by phone, mail and fax by using a virtual terminal.",
+                        "image": "assets/images/product/payments_phone_big.png"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "paymentIcons"
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-top-left wave-merge-bottom"
+        },
+        {
+            "name": "feature",
+            "options": {
+                "blueline": true,
+                "title": "Card Machines",
+                "description": "Select from a variety of countertop, portable and mobile credit card terminals that will accept all types of credit card payments.Our suppliers stock the latest Ingenico, Verifone and Clover payments terminals that can connect via 3 G, GPRS, Wifi and Bluetooth.",
+                "image": "assets/images/product/card_machine_big.png",
+                "prosList": [{
+                    "image": "assets/images/product/icons/Process-payments.png",
+                    "description": "Process payments in seconds using Contactless technology"
+                },
+                    {
+                        "image": "assets/images/product/icons/Get-replacements.png",
+                        "description": "Get replacements sent the next day"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Take-payments.png",
+                        "description": "Take payments with your smartphone with no monthly fees"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Fast,-easy.png",
+                        "description": "Fast, easy to use and reliable"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Compliant-with-global.png",
+                        "description": "Compliant with global anti-fraud standards (PCI DSS compliant)"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Wide-choice.png",
+                        "description": "Wide choice of terminals and EPOS systems for various business types"
+                    }
+                ],
+                "direction": "left"
+            }
+        },
+        {
+            "name": "feature",
+            "options": {
+                "blueline": true,
+                "title": "Online Payments",
+                "description": "You can choose to redirect online customers to a pre-designed payment page, integrate a payment page into your website or use a virtual terminal service. ",
+                "image": "assets/images/product/online_payments_big.png",
+                "prosList": [{
+                    "image": "assets/images/product/icons/Be-set-up.png",
+                    "description": "Be set up and ready to take payments in just one day"
+                },
+                    {
+                        "image": "assets/images/product/icons/Integrate-the-payment.png",
+                        "description": "Integrate the payment page into your website"
+                    },
+                    {
+                        "image": "assets/images/product/icons/You-will-have-24-hour.png",
+                        "description": "You will have 24 hour support for 365 days a year"
+                    },
+                    {
+                        "image": "assets/images/product/icons/No-technical-knowledge.png",
+                        "description": "No technical knowledge required - an expert will help you get set up"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Keep-all-data.png",
+                        "description": "Keep all data secure and safe with an online payment gateway"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Compliant-with-global.png",
+                        "description": "Compliant with global anti-fraud standards (PCI DSS compliant)"
+                    }
+                ],
+                "direction": "right"
+            }
+        },
+        {
+            "name": "feature",
+            "options": {
+                "title": "Mail & Phone Payments",
+                "description": "You can take payments using a virtual terminal that can be accessed on your computer or tablet.Just login from your web browser and enter the payment details.",
+                "image": "assets/images/product/payments_phone_big.png",
+                "prosList": [{
+                    "image": "assets/images/product/icons/Track-all-payments.png",
+                    "description": "Track all payments with real-time reporting"
+                },
+                    {
+                        "image": "assets/images/product/icons/You-will-have-24-hour.png",
+                        "description": "You will have 24 hour support for 365 days a year"
+                    },
+                    {
+                        "image": "assets/images/product/icons/One-monthly-fee.png",
+                        "description": "One monthly fee for multiple users"
+                    },
+                    {
+                        "image": "assets/images/product/icons/Compliant-with-global.png",
+                        "description": "Compliant with global anti-fraud standards (PCI DSS compliant)"
+                    }
+                ],
+                "direction": "left"
+            }
+        }
+    ],
+    "questionnaire": {
+        "slides": [
+            {
+                "button": "Compare Rates",
+                "headline": "Do you currently have a merchant account?",
+                "checks": [
+                    {
+                        "label": "Yes",
+                        "name": "current_terminal",
+                        "value": "True"
+                    },
+                    {
+                        "label": "No",
+                        "name": "current_terminal",
+                        "shift": "2",
+                        "value": "False"
+                    }
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"}
+                ]
+            },
+            {
+                "headline": "Who is your current provider?",
+                "checks": [
+                    {
+                        "label": "Barclaycard",
+                        "name": "current_provider",
+                        "value": "Barclaycard"
+                    },
+                    {
+                        "label": "Paypal",
+                        "name": "current_provider",
+                        "value": "Paypal"
+                    },
+                    {
+                        "label": "First Data",
+                        "name": "current_provider",
+                        "value": "First Data"
+                    },
+                    {
+                        "label": "Global Payments",
+                        "name": "current_provider",
+                        "value": "Global Payments"
+                    },
+                    {
+                        "label": "Worldpay",
+                        "name": "current_provider",
+                        "value": "Worldpay"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "current_provider",
+                        "value": "Other"
+                    }
+                ]
+            },
+            {
+                "headline": "What will be your total monthly revenue from Credit/Debit Cards?",
+                "checks": [
+                    {
+                        "label": "Under £1,000",
+                        "name": "estimated_card_payments",
+                        "value": "1000"
+                    },
+                    {
+                        "label": "£1,000 - £10,000",
+                        "name": "estimated_card_payments",
+                        "value": "10000"
+                    },
+                    {
+                        "label": "£10,000 - £100,000",
+                        "name": "estimated_card_payments",
+                        "value": "100000"
+                    },
+                    {
+                        "label": "Over £100,000",
+                        "name": "estimated_card_payments",
+                        "value": "100001"
+                    },
+                    {
+                        "label": "Unsure",
+                        "name": "estimated_card_payments",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "headline": "What industry are you in?",
+                "checks": [
+                    {
+                        "label": "Retail",
+                        "name": "industry",
+                        "value": "Retail"
+                    },
+                    {
+                        "label": "Food and Catering / Hospitality",
+                        "name": "industry",
+                        "value": "Food and Catering / Hospitality"
+                    },
+                    {
+                        "label": "Health and Leisure",
+                        "name": "industry",
+                        "value": "Health and Leisure"
+                    },
+                    {
+                        "label": "Construction",
+                        "name": "industry",
+                        "value": "Construction"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "industry",
+                        "value": "Other"
+                    }
+                ]
+            },
+            {
+                "headline": "Your postcode ensures quotes are as accurate as possible for your area",
+                "inputs": [
+                    {
+                        "label": "Your company's postcode",
+                        "name": "business_postcode",
+                        "pattern": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+                    }
+                ]
+            },
+            {
+                "headline": "Hold on - we're finding suppliers that best match your needs",
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"},
+                    {"label": "autoslide", "value": "2000"}
+                ]
+            },
+            {
+                "headline": "Good news! We've found suppliers that match your requirements.<br>Complete your details to get your free quotes",
+                "inputs": [
+                    {
+                        "label": "Your email address",
+                        "name": "email_address",
+                        "type": "email"
+                    },
+                    {
+                        "label": "Contact title",
+                        "name": "contact_title"
+                    }
+                ]
+            },
+            {
+                "headline": "",
+                "inputs": [
+                    {
+                        "label": "Your first name",
+                        "name": "contact_f_name"
+                    },
+                    {
+                        "label": "Your last name",
+                        "name": "contact_l_name"
+                    },
+                    {
+                        "label": "Your phone number",
+                        "name": "phone_no"
+                    }
+                ]
+            },
+            {
+                "headline": "",
+                "inputs": [
+                    {
+                        "label": "Company name",
+                        "name": "company_name"
+                    },
+                    {
+                        "label": "Company formation year",
+                        "name": "company_formation_year"
+                    }
+                ]
+            },
+            {
+                "headline": "Company type",
+                "checks": [
+                    {
+                        "label": "Soletrader",
+                        "name": "company_type",
+                        "value": "SOLETRADER"
+                    },
+                    {
+                        "label": "Ltd",
+                        "name": "company_type",
+                        "value": "LTD"
+                    },
+                    {
+                        "label": "Plc",
+                        "name": "company_type",
+                        "value": "PLC"
+                    },
+                    {
+                        "label": "Startup",
+                        "name": "company_type",
+                        "value": "STARTUP"
+                    },
+                    {
+                        "label": "Public",
+                        "name": "company_type",
+                        "value": "PUBLIC"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "company_type",
+                        "value": "OTHER"
+                    }
+                ]
+            },
+            {
+                "button": "Get Rates",                
+                "headline": "Payment type",
+                "checks": [
+                    {
+                        "label": "Online",
+                        "name": "payment_type",
+                        "value": "ONLINE"
+                    },
+                    {
+                        "label": "Inperson",
+                        "name": "payment_type",
+                        "value": "INPERSON"
+                    },
+                    {
+                        "label": "Both",
+                        "name": "payment_type",
+                        "value": "BOTH"
+                    }
+                ]
+            },
+            {
+                "headline": "Thanks for choosing Deskwize, our teams are now working to find you the best match",
+                "descriptions": [
+                    "In the meantime, take a look at our other business products.",
+                    "Need to speak to us now? You can call us quoting your unique reference number 1000321291"
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"}
+                ],
+                "style": "blue"
+            }
+        ]
+    },
+    "questionnaire_url": "some-url"
+}

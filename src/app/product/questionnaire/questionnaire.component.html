@@ -1,0 +1,33 @@
+<div class="questionnaire" id="form">
+    <div class="progress w-100">
+        <div class="progress-bar" [class.nothing]="progress == 0" [style.width.%]="progress">
+            <strong>{{progress}}%</strong>
+        </div>
+    </div>
+
+    <shared-slide
+        #slideArr
+        id="slide_{{i}}"
+        class="questionnaire__container"
+        *ngFor="let slide of slides; let i = index"
+        [index]="i"
+        [slide]="slide"
+        [model]="model"
+        [validateSlideTo]="validateSlideTo"
+        (slideTo)="slideTo($event)"
+    ></shared-slide>
+
+    <div class="questionnaire__back" [hidden]="hideback" (click)="slideToBack()">
+        back
+    </div>
+    <div class="questionnaire__btn">
+        <button class="btn btn-warning btn-questionnaire" type="button" [hidden]="hidenext" (click)="validateSlideTo.next(slides.length - 1)">
+            <span class="btn-questionnaire__text">{{slides[slides.length - 1]?.button || 'Continue'}}</span>
+            <i class="glyph-icon fi flaticon-arrows"></i>
+        </button>
+    </div>
+
+    <a class="questionnaire__privacy" routerLink="">
+        <i class="lock-ico"></i> Privacy Policy
+    </a>
+</div>

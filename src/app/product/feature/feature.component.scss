@@ -1,0 +1,23 @@
+@import "../../../styles/variables";
+.deskwize-feature {
+    .deskwize-feature-title {
+        color:$color-head;
+    }
+
+    .deskwize-feature-pros-list {
+        .deskwize-feature-pros {
+            min-height: 40px;
+            list-style: none;
+            margin-bottom: 0.5rem;
+            .deskwize-feature-pros-image-wrapper {
+                flex: 0 0 10%;
+            }
+        }
+    }
+}
+
+.theme-deep-green {
+    .text-header {
+        color: $color-deep-green;
+    }
+}

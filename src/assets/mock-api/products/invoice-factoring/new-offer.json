@@ -1,0 +1,441 @@
+{
+    "color_theme": "green",
+    "navbar": {
+        "headline": "Invoice Factoring Offers"
+    },
+    "header": {
+        "headline": "Save up to 40%",
+        "headline2": "by comparing invoice factoring quotes",
+        "checks": [
+            "Release <b>cash</b> from your invoice today",
+            "Rates from <b>0.5%</b>",
+            "Offer your customers <b>30-60</b> das to pay",
+            "Fill in <b>one form</b> to compare top companies now"
+        ],
+        "icons": [
+            "/assets/images/payments/banks.png"
+        ],
+        "icons_description": "Our partners include:",
+        "image": "assets/images/product/card_machine_big.png"
+    },
+    "sections": [
+        {
+            "name": "blueline"
+        },
+        {
+            "name": "readMore",
+            "options": {
+                "title": "Understanding invoice factoring and discounting",
+                "articles": [
+                    {
+                        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                        "features": [
+                            {
+                                "label": "Pros",
+                                "body": "Fastest access to credit"
+                            },
+                            {
+                                "label": "Cons",
+                                "body": "Non payment risk"
+                            }
+                        ],
+                        "image": "assets/images/tmp/partner-min.jpg",
+                        "fragment": "form",
+                        "title": "Invoice Factoring"
+                    },
+                    {
+                        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                        "features": [
+                            {
+                                "label": "Pros",
+                                "body": "Fastest access to credit"
+                            },
+                            {
+                                "label": "Cons",
+                                "body": "Non payment risk"
+                            }
+                        ],
+                        "image": "assets/images/tmp/partner-min.jpg",
+                        "fragment": "form",
+                        "title": "Invoice Discounting"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-bottom-right"
+        },
+        {
+            "name": "benefits",
+            "options": {
+                "title": "Getting a quote is quick and simple",
+                "list": {
+                    "description": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.",
+                    "items": [
+                        "No assets required for funding",
+                        "Ut enim ad minima veniam, quis nostrum exercitation",
+                        "Quis autem vel eum iure reprehenderit",
+                        "At vero eos et accusamus et iusto odio dignissimos ducimus",
+                        "Nam libero tempore, cum soluta nobis est eligendi optio",
+                        "Temporibus autem quibusdam"
+                    ],
+                    "title": "What are the benefits?"
+                },
+                "steps": [
+                    {
+                        "description": "Complete the quick form",
+                        "image": "/assets/images/benefits/step1.png",
+                        "title": "Step 1"
+                    },
+                    {
+                        "description": "Receive & compare no obligation quotes",
+                        "image": "/assets/images/benefits/step2.png",
+                        "title": "Step 2"
+                    },
+                    {
+                        "description": "Receive your cash",
+                        "image": "/assets/images/benefits/step3.png",
+                        "title": "Step 3"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-top-left wave-merge-bottom"
+        },
+        {
+            "name": "relation",
+            "bg": "white",
+            "options": {
+                "order": 1,
+                "body": "<p>Lorem ipsum dolor sit amet, mel ea rebum periculis sententiae, per ad paulo regione nominati. Mei no oratio platonem, per et corpora omittam. Eum cu tantas mediocritatem, ad odio adversarium sit, iusto percipit appellantur est an. No recteque efficiendi usu, nullam vocibus ut eam.</p><p>Eu cibo qualisque quo. Quot vitae sed ad, per detraxit atomorum at. Omnes verear virtute an est, ne est possim vocibus facilisis. Ea civibus mnesarchum necessitatibus his, dicant doctus vix ne, et alterum vivendo molestiae usu. At vis mutat dictas molestie, at vis petentium qualisque intellegebat. Congue nonumes mea an, pri eu vivendum adolescens percipitur.</p><p>Vis natum porro integre ut. Ea eius putent adipisci mei, graeci putent eu his. Ex debitis invenire vel, fuisset quaerendum ei usu. Voluptatum liberavisse ne pro, omnis prima autem has ex. At per decore definitiones. Tempor noluisse sadipscing sea et, postea qualisque reprehendunt ei his, graece graeco vocibus at eam. Te ius justo invidunt efficiantur.</p>",
+                "title": "How does Invoice Factoring work?",
+                "sub_component": {
+                    "name": "image",
+                    "options": "/assets/images/product/payments_phone_big.png"
+                }
+            }
+        },
+        {
+            "name": "relation",
+            "bg": "white",
+            "options": {
+                "order": 2,
+                "body": "<p>Lorem ipsum dolor sit amet, mel ea rebum periculis sententiae, per ad paulo regione nominati. Mei no oratio platonem, per et corpora omittam. Eum cu tantas mediocritatem, ad odio adversarium sit, iusto percipit appellantur est an. No recteque efficiendi usu, nullam vocibus ut eam.</p><p>Eu cibo qualisque quo. Quot vitae sed ad, per detraxit atomorum at. Omnes verear virtute an est, ne est possim vocibus facilisis. Ea civibus mnesarchum necessitatibus his, dicant doctus vix ne, et alterum vivendo molestiae usu. At vis mutat dictas molestie, at vis petentium qualisque intellegebat. Congue nonumes mea an, pri eu vivendum adolescens percipitur.</p><p>Vis natum porro integre ut. Ea eius putent adipisci mei, graeci putent eu his. Ex debitis invenire vel, fuisset quaerendum ei usu. Voluptatum liberavisse ne pro, omnis prima autem has ex. At per decore definitiones. Tempor noluisse sadipscing sea et, postea qualisque reprehendunt ei his, graece graeco vocibus at eam. Te ius justo invidunt efficiantur.</p>",
+                "title": "How does Invoice Factoring work?",
+                "blueline": true,
+                "sub_component": {
+                    "name": "image",
+                    "options": "/assets/images/product/payments_phone_big.png"
+                }
+            }
+        },
+        {
+            "name": "wave",
+            "options": "wave wave-white-bottom-right"
+        },
+        {
+            "name": "relation",
+            "options": {
+                "body": "<p><a href='/'>Lorem ipsum dolor</a> sit amet, mel ea rebum periculis sententiae, per ad paulo regione nominati. Mei no oratio platonem, per et corpora omittam. Eum cu tantas mediocritatem, ad odio adversarium sit, iusto percipit appellantur est an. No recteque efficiendi usu, nullam vocibus ut eam.</p><p>Eu cibo qualisque quo. Quot vitae sed ad, per detraxit atomorum at. Omnes verear virtute an est, ne est possim vocibus facilisis. Ea civibus mnesarchum necessitatibus his, dicant doctus vix ne, et alterum vivendo molestiae usu. At vis mutat dictas molestie, at vis petentium qualisque intellegebat. Congue nonumes mea an, pri eu vivendum adolescens percipitur.</p><p>Vis natum porro integre ut. <a href='/'>Ea eius putent</a> adipisci mei, graeci putent eu his. Ex debitis invenire vel, fuisset quaerendum ei usu. Voluptatum liberavisse ne pro, omnis prima autem has ex. At per decore definitiones. Tempor noluisse sadipscing sea et, postea qualisque reprehendunt ei his, graece graeco vocibus at eam. Te ius justo invidunt efficiantur.</p>",
+                "title": "About us",
+                "sub_component": {
+                    "name": "partners",
+                    "bg": "white",
+                    "options": {
+                        "title": "Our network of partners include:",
+                        "fragment": "form",
+                        "icons": [
+                            "/assets/images/partners/aldermore.png",
+                            "/assets/images/partners/capitalise.jpg",
+                            "/assets/images/partners/lloyds.jpg",
+                            "/assets/images/partners/hitachi.jpg",
+                            "/assets/images/partners/sfp.jpg",
+                            "/assets/images/partners/clear.jpg",
+                            "/assets/images/partners/touch.jpg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "space",
+            "options": "hidden-lg-down mt-5"
+        }
+    ],
+    "questionnaire": {
+        "slides": [
+            {
+                "headline": "Do you currently have a merchant account?",
+                "checks": [
+                    {
+                        "label": "Yes",
+                        "name": "current_terminal",
+                        "value": "True"
+                    },
+                    {
+                        "label": "No",
+                        "name": "current_terminal",
+                        "shift": "2",
+                        "value": "False"
+                    }
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"}
+                ]
+            },
+            {
+                "headline": "Who is your current provider?",
+                "checks": [
+                    {
+                        "label": "Barclaycard",
+                        "name": "current_provider",
+                        "value": "Barclaycard"
+                    },
+                    {
+                        "label": "Paypal",
+                        "name": "current_provider",
+                        "value": "Paypal"
+                    },
+                    {
+                        "label": "First Data",
+                        "name": "current_provider",
+                        "value": "First Data"
+                    },
+                    {
+                        "label": "Global Payments",
+                        "name": "current_provider",
+                        "value": "Global Payments"
+                    },
+                    {
+                        "label": "Worldpay",
+                        "name": "current_provider",
+                        "value": "Worldpay"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "current_provider",
+                        "value": "Other"
+                    }
+                ]
+            },
+            {
+                "headline": "What will be your total monthly revenue from Credit/Debit Cards?",
+                "checks": [
+                    {
+                        "label": "Under £1,000",
+                        "name": "estimated_card_payments",
+                        "value": "1000"
+                    },
+                    {
+                        "label": "£1,000 - £10,000",
+                        "name": "estimated_card_payments",
+                        "value": "10000"
+                    },
+                    {
+                        "label": "£10,000 - £100,000",
+                        "name": "estimated_card_payments",
+                        "value": "100000"
+                    },
+                    {
+                        "label": "Over £100,000",
+                        "name": "estimated_card_payments",
+                        "value": "100001"
+                    },
+                    {
+                        "label": "Unsure",
+                        "name": "estimated_card_payments",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "headline": "What industry are you in?",
+                "checks": [
+                    {
+                        "label": "Retail",
+                        "name": "industry",
+                        "value": "Retail"
+                    },
+                    {
+                        "label": "Food and Catering / Hospitality",
+                        "name": "industry",
+                        "value": "Food and Catering / Hospitality"
+                    },
+                    {
+                        "label": "Health and Leisure",
+                        "name": "industry",
+                        "value": "Health and Leisure"
+                    },
+                    {
+                        "label": "Construction",
+                        "name": "industry",
+                        "value": "Construction"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "industry",
+                        "value": "Other"
+                    }
+                ]
+            },
+            {
+                "headline": "What type of customers do you have?",
+                "checks": [
+                    {
+                        "label": "Business only",
+                        "name": "customers",
+                        "value": "business_only"
+                    },
+                    {
+                        "label": "Consumers only",
+                        "name": "customers",
+                        "value": "consumers_only"
+                    },
+                    {
+                        "label": "A mixture of both",
+                        "name": "customers",
+                        "value": "mixture"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "customers",
+                        "value": "Other",
+                        "help_text": "This text appears when has been chosen Other"
+                    }
+                ]
+            },
+            {
+                "headline": "Your postcode ensures quotes are as accurate as possible for your area",
+                "inputs": [
+                    {
+                        "label": "Your company's postcode",
+                        "name": "business_postcode",
+                        "pattern": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+                    }
+                ]
+            },
+            {
+                "headline": "Hold on - we're finding suppliers that best match your needs",
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"},
+                    {"label": "autoslide", "value": "2000"}
+                ]
+            },
+            {
+                "headline": "Good news! We've found suppliers that match your requirements.<br>Complete your details to get your free quotes",
+                "inputs": [
+                    {
+                        "label": "Your email address",
+                        "name": "email_address",
+                        "type": "email"
+                    },
+                    {
+                        "label": "Contact title",
+                        "name": "contact_title"
+                    }
+                ]
+            },
+            {
+                "headline": "",
+                "inputs": [
+                    {
+                        "label": "Your first name",
+                        "name": "contact_f_name"
+                    },
+                    {
+                        "label": "Your last name",
+                        "name": "contact_l_name"
+                    },
+                    {
+                        "label": "Your phone number",
+                        "name": "phone_no"
+                    }
+                ]
+            },
+            {
+                "headline": "",
+                "inputs": [
+                    {
+                        "label": "Company name",
+                        "name": "company_name"
+                    },
+                    {
+                        "label": "Company formation year",
+                        "name": "company_formation_year"
+                    }
+                ]
+            },
+            {
+                "headline": "Company type",
+                "checks": [
+                    {
+                        "label": "Soletrader",
+                        "name": "company_type",
+                        "value": "SOLETRADER"
+                    },
+                    {
+                        "label": "Ltd",
+                        "name": "company_type",
+                        "value": "LTD"
+                    },
+                    {
+                        "label": "Plc",
+                        "name": "company_type",
+                        "value": "PLC"
+                    },
+                    {
+                        "label": "Startup",
+                        "name": "company_type",
+                        "value": "STARTUP"
+                    },
+                    {
+                        "label": "Public",
+                        "name": "company_type",
+                        "value": "PUBLIC"
+                    },
+                    {
+                        "label": "Other",
+                        "name": "company_type",
+                        "value": "OTHER"
+                    }
+                ]
+            },
+            {
+                "headline": "Payment type",
+                "checks": [
+                    {
+                        "label": "Online",
+                        "name": "payment_type",
+                        "value": "ONLINE"
+                    },
+                    {
+                        "label": "Inperson",
+                        "name": "payment_type",
+                        "value": "INPERSON"
+                    },
+                    {
+                        "label": "Both",
+                        "name": "payment_type",
+                        "value": "BOTH"
+                    }
+                ]
+            },
+            {
+                "headline": "Thanks for choosing Expert Market, our teams are now working to find you the best match",
+                "descriptions": [
+                    "In the meantime, take a look at our other business products.",
+                    "Need to speak to us now? You can call us quoting your unique reference number 1000321291."
+                ],
+                "props": [
+                    {"label": "hideback", "value": "true"},
+                    {"label": "hidenext", "value": "true"}
+                ]
+            }
+        ]
+    },
+    "questionnaire_url": "some-url"
+}

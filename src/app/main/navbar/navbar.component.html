@@ -1,0 +1,23 @@
+<nav class="navbar fixed-top navbar-toggleable navbar-light justify-content-between flex-row deskwize-navbar">
+    <a class="navbar-brand d-flex flex-row align-items-center ml-0 ml-md-1"
+            routerLink="" routerLinkActive="active" queryParamsHandling="merge">
+        <img class="deskwize-navbar-image" src="assets/images/brand/main-logo.svg">
+        <span class="text-white ml-2 h2">
+            deskwize
+        </span>
+    </a>
+    <div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item hidden-sm-down" *ngFor="let menuItem of mainMenuItems">
+                <a class="nav-link text-white"
+                        [routerLink]="menuItem.link"
+                        routerLinkActive="active" queryParamsHandling="merge">
+                    {{menuItem.display}}
+                </a>
+            </li>
+            <li class="nav-item d-flex align-items-center pt-3 pt-sm-0 pr-sm-2 pb-3 pb-sm-1 pl-sm-3">
+                <div class="box-shadow-menu" (click)="openSidebar($event)"></div>
+            </li>
+        </ul>
+    </div>
+</nav>

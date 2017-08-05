@@ -1,0 +1,26 @@
+<div class="container read-more theme-{{readMore?.color_theme}}">
+    <shared-title headerClass="pt-3 pb-5" [text]="readMore?.title"></shared-title>
+    <div class="row mb-4"
+            *ngFor="let article of readMore?.articles; trackBy: trackByIndex">
+        <shared-blueline *ngIf="article.blueline"></shared-blueline>
+        <div class="col-12 col-md-4">
+            <div class="read-more__image mb-2"
+                 [style.background-image]="'url(' + article.image + ')'">
+            </div>
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="read-more__title">
+                {{article.title}}
+            </div>
+            <div>
+                <div class="read-more__body text-justify" [innerHtml]="article.body"></div>
+                <ul *ngIf="article.features" class="read-more__features">
+                    <li *ngFor="let feature of article.features">
+                        <strong>{{feature.label}}:</strong> {{feature.body}}
+                    </li>
+                </ul>
+                <a class="btn btn-primary btn-read-more" *ngIf="article.link" [routerLink]="article.link" [fragment]="article.fragment">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>

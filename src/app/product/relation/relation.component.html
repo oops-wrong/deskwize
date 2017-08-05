@@ -1,0 +1,19 @@
+<div class="container relation theme-{{relation?.color_theme}}">
+	<div class="row">
+		<div class="col-12 col-lg-7 mb-4 mb-lg-0" [style.order]="relation.order">
+			<div class="relation__title mb-3">{{relation.title}}</div>
+			<div class="relation__body text-justify" [innerHTML]="relation.body"></div>
+			<ul class="relation__list">
+				<li *ngFor="let item of relation.list.items" [innerHTML]="item"></li>
+			</ul>
+		</div>
+		<div class="col-12 col-lg-5 mb-4 mb-lg-0 relation__sub-component" [ngSwitch]="relation.sub_component.name">
+			<div *ngSwitchCase="'image'" class="img-max-width">
+				<img [src]="relation.sub_component.options" alt="">
+			</div>
+			<div *ngSwitchCase="'partners'" class="bg-{{relation.sub_component.bg}} mb-4 mb-lg-0">
+				<prod-partners [partners]="relation.sub_component.options"></prod-partners>
+			</div>
+		</div>
+	</div>
+</div>

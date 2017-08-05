@@ -1,0 +1,31 @@
+<div class="row deskwize-feature theme-{{feature?.theme}}" [ngClass]="{ 'flex-row-reverse': feature?.direction === 'right' }">
+    <div class="col-12 col-md-6">
+        <div class="row">
+            <div class="col text-header h4 font-weight-bold mb-4 deskwize-feature-title">
+                {{feature?.title}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    {{feature?.description}}
+                </p>
+            </div>
+        </div>
+        <div class="row"> <div class="col">
+                <ul class="deskwize-feature-pros-list pl-0">
+                    <li class="d-flex flex-row align-items-center deskwize-feature-pros"
+                            *ngFor="let prosItem of feature?.prosList; trackBy:trackByIndex">
+                        <span class="mr-2 deskwize-feature-pros-image-wrapper text-center ">
+                            <img [src]="prosItem.image">
+                        </span>
+                        <span>{{prosItem.description}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 d-flex flex-row justify-content-center align-items-start">
+        <img [src]="feature?.image" class="w-{{feature.width}}">
+    </div>
+</div>

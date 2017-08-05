@@ -1,0 +1,20 @@
+@import '~styles/variables';
+
+.big-tablet {
+    max-height: 800px;
+    height: 95vh;
+    background: url('../../../assets/images/home/big-tablet.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.reviewers {
+    max-height: 340px;
+    height: 95vh;
+    background: url('../../../assets/images/home/reviewers.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.find-roducts-text {
+    color: $color-text;
+    font-size: 1rem;
+}

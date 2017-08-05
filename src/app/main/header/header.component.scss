@@ -1,0 +1,26 @@
+@import "~styles/media";
+
+.promo{
+    color: #fff;
+    height: 600px;
+    background: url("/assets/images/home/home_bg.jpg") no-repeat bottom center;
+    background-size: cover;
+}
+.h1{
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+@include media("<md") {
+    .h1{
+        font-size: 1.6rem;
+    }
+}
+.search-wrap{
+    border-radius: 5px;
+    background-color: rgba(#000, .2);
+    width: 100%;
+}
+.list-inline{
+    color: #a8acc5;
+    font-size: .8rem;
+}

@@ -1,0 +1,61 @@
+$containerHorizonPadding: 32px;
+$textColor: #ccc;
+$textColorHover: #fff;
+$textTransition: 300ms;
+$textTransitionHover: 100ms;
+
+.sidebar {
+    background-color: #111;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+    max-width: 100vw;
+    padding-top: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 500ms;
+    width: 0;
+    z-index: 2000;
+
+    a {
+        color: $textColor;
+        display: block;
+        font-size: 20px;
+        padding-left: $containerHorizonPadding;
+        padding-right: $containerHorizonPadding;
+        text-decoration: none;
+        transition: $textTransition;
+
+        &:hover {
+            color: $textColorHover;
+            transition: $textTransitionHover;
+        }
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+    &__list-item {
+        list-style: none;
+        padding: 0;
+    }
+
+    .close-btn {
+        color: $textColor;
+        cursor: pointer;
+        font-size: 2.3rem;
+        position: absolute;
+        left: $containerHorizonPadding - 16px;
+        line-height: 1;
+        padding: 0 16px;
+        top: 10px;
+        transition: $textTransition;
+
+        &:hover {
+            color: $textColorHover;
+            transition: $textTransitionHover;
+        }
+    }
+}

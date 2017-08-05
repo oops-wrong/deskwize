@@ -1,0 +1,82 @@
+@import "~styles/media";
+@import "~styles/variables";
+
+:host {
+    font-size: 1.2rem;
+}
+
+.navbar {
+    &__headline {
+        color: $color-brand;
+    }
+}
+
+.absolute-top {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+}
+.deskwize-navbar-brand {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+.deskwize-navbar-image {
+    background-image: url(/assets/images/brand/main-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 40px;
+}
+.deskwize-label {
+    padding-left: 20px;
+    position: relative;
+
+    &:before {
+        border-left: 1px solid #fff;
+        content: "";
+        height: 40px;
+        left: 0;
+        position: absolute;
+        top: 5px;
+    }
+}
+small {
+    color: #fff;
+}
+
+.theme-green {
+    .navbar {
+        &__headline {
+            color: $color-green;
+        }
+    }
+
+    .deskwize-navbar-image {
+        background-image: url(/assets/images/brand/main-logo-green.svg);
+    }
+}
+
+.theme-deep-green {
+    .navbar {
+        &__headline {
+            color: $color-deep-green;
+        }
+    }
+
+    .deskwize-navbar-image {
+        background-image: url(/assets/images/brand/main-logo-deep-green.svg);
+    }
+}
+
+.theme-blue, .theme-orange {
+    .navbar {
+        &__headline {
+            color: $color-black;
+        }
+    }
+    .deskwize-navbar-image {
+        background-image: url(/assets/images/brand/main-logo-black.svg);
+    }
+}

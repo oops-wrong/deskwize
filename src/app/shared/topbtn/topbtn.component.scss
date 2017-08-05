@@ -1,0 +1,18 @@
+@import "~styles/variables";
+
+.topbtn{
+    bottom: 50px;
+    color: $color-line;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0;
+    position: fixed;
+    right: -150px;
+    transition: all .5s;
+    width: 50px;
+    z-index: 1070;
+}
+.show-btn{
+    opacity: 1;
+    right: 15px;
+}

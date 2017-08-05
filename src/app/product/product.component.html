@@ -1,0 +1,58 @@
+<div *ngIf="!isNotFound; else notFound" class="deskwize-product">
+    <div *ngIf="product">
+        <prod-navbar [navbar]="product.navbar" [theme]="product.color_theme"></prod-navbar>
+
+        <prod-header [product]="product" [theme]="product.color_theme"></prod-header>
+
+        <div *ngFor="let section of product.sections" class="theme-{{product.color_theme}}">
+            <div [ngSwitch]="section.name">
+
+                <div *ngSwitchCase="'promotion'" class="container-fluid bg-white pt-4 pb-5">
+                    <shared-blueline></shared-blueline>
+                    <prod-promotion [promotion]="section.options" [theme]="product.color_theme"></prod-promotion>
+                </div>
+
+                <div *ngSwitchCase="'wave'" [class]="section.options"></div>
+
+                <div *ngSwitchCase="'briefFeatures'" class="container-fluid pb-5">
+                    <prod-brief-features [briefFeatures]="section.options"></prod-brief-features>
+                </div>
+
+                <div *ngSwitchCase="'briefFeaturesLots'" class="container-fluid bg-white pt-4 pb-5">
+                    <shared-blueline></shared-blueline>
+                    <prod-brief-features-lots [briefFeaturesLots]="section.options"></prod-brief-features-lots>
+                </div>
+
+                <prod-payment-icons *ngSwitchCase="'paymentIcons'"></prod-payment-icons>
+
+                <div *ngSwitchCase="'feature'" class="container-fluid bg-white oh pt-5">
+                    <div class="container">
+                        <prod-feature [feature]="section.options"></prod-feature>
+                    </div>
+                    <shared-blueline *ngIf="section.options.blueline" class="d-block pt-5"></shared-blueline>
+                </div>
+
+                <div *ngSwitchCase="'readMore'" class="container-fluid bg-white pt-4 pb-5 oh">
+                    <shared-blueline *ngIf="section.options.blueline"></shared-blueline>
+                    <prod-read-more [readMore]="section.options"></prod-read-more>
+                </div>
+
+                <div *ngSwitchCase="'benefits'" class="container-fluid pt-4 oh">
+                    <prod-benefits [benefits]="section.options"></prod-benefits>
+                </div>
+
+                <div *ngSwitchCase="'relation'" class="container-fluid pt-4 pt-lg-5 oh bg-{{section.bg}}">
+                    <shared-blueline *ngIf="section.options.blueline" class="d-block pb-5"></shared-blueline>
+                    <prod-relation [relation]="section.options"></prod-relation>
+                </div>
+
+                <div *ngSwitchCase="'space'" class="container-fluid oh bg-{{section.bg}} {{section.options}}"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #notFound>
+    <shared-page-not-found></shared-page-not-found>
+</ng-template>

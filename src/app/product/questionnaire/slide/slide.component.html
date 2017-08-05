@@ -1,0 +1,78 @@
+<div class="wrapper questionnaire__content d-flex flex-column theme-{{slide?.style}}" [ngClass]="{'slider-elem-next': index}" [@slideChange]="position">
+    <div class="questionnaire__head" [innerHTML]="slide.headline"></div>
+    <form class="questionnaire__body d-flex flex-wrap" [ngClass]="{'content-start': slide?.center}" #form="ngForm" #formEl>
+        <div class="questionnaire__form" *ngIf="slide.checks.length != 0">
+            <div
+                class="questionnaire__check questionnaire-check"
+                *ngFor="let check of slide.checks; let i = index"
+            >
+                <input
+                    *ngIf="check.type === 'radio'"
+                    class="questionnaire-check__input"
+                    [id]="check.name + i"
+                    [name]="check.name"
+                    [ngModel]="model[check.name]"
+                    (ngModelChange)="model[check.name] = $event; checked(check)"
+                    type="radio"
+                    [required]="check.required"
+                    [value]="check.value"
+                >
+                <input
+                    *ngIf="check.type === 'checkbox'"
+                    class="checkbox questionnaire-check__input"
+                    [id]="check.name + i"
+                    [name]="check.name"
+                    [ngModel]="model[check.name]"
+                    (ngModelChange)="model[check.name] = $event; checked(check)"
+                    type="checkbox"
+                    [required]="check.required"
+                    [value]="check.value"
+                >
+                <label class="questionnaire-check__label" [for]="check.name + i">{{check.label}}</label>
+            </div>
+            <div *ngIf="checkedOption?.text_area">
+                <textarea cols="25" rows="3"
+                          name="{{checkedOption.name}}"
+                          class="questionnaire__help-text"
+                          [(ngModel)]="checkedOption.value">
+                </textarea>
+            </div>
+        </div>
+        <div class="questionnaire__form w-100" [ngClass]="{'slide-center': slide?.center }" *ngIf="slide.inputs.length != 0">
+            <div
+                class="questionnaire-input form-group"
+                *ngFor="let input of slide.inputs; let i = index"
+            >
+                <label class="questionnaire-input__label" [for]="input.name + i">{{input.label}}</label>
+                <input
+                    class="questionnaire-input__input form-control"
+                    [email]="input.type === 'email'"
+                    [id]="input.name + i"
+                    [name]="input.name"
+                    [(ngModel)]="model[input.name]"
+                    [pattern]="input.pattern"
+                    [required]="input.required"
+                    [type]="input.type"
+                >
+                <div class="questionnaire-input__validation"></div>
+                <div class="questionnaire-input__ok"><i class="glyph-icon fi flaticon-check"></i></div>
+            </div>
+        </div>
+        <div class="questionnaire__description" *ngIf="slide.descriptions">
+            <div
+                class="questionnaire-description"
+                *ngFor="let description of slide.descriptions"
+            >
+                <p class="questionnaire-description__text" [innerHTML]="description"></p>
+            </div>
+        </div>
+        <div class="questionnaire__description d-flex w-100 justify-content-center" *ngIf="hasAutoSlide()">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </form>
+</div>
+

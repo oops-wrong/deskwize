@@ -1,0 +1,342 @@
+{
+	"color_theme": "green",
+	"navbar": {
+		"headline": "Invoice Factoring"
+	},
+	"header": {
+		"headline": "Save up to 40%",
+		"headline2": "by comparing invoice factoring quotes",
+		"checks": [
+			"Release <b>cash</b> from your invoice today",
+			"Rates from <b>0.5%</b>",
+			"Offer your customers <b>30-60</b> days to pay",
+			"Fill in <b>one form</b> to compare top companies now"
+		],
+		"icons": [
+			"/assets/images/payments/banks.png"
+		],
+		"icons_description": "Our partners include:",
+		"image": "assets/images/invoice-factoring/hero-image.png"
+	},
+	"sections": [
+		{
+			"name": "blueline"
+		},
+		{
+			"name": "readMore",
+			"options": {
+				"title": "Understanding invoice factoring and discounting",
+				"articles": [
+					{
+						"body": "Factoring takes a great deal of pressure off your company's resources. It's a fully managed solution where the factoring company takes care of the ledger, chases payments and issues invoices on your behalf. You get the cash immediatly.",
+						"features": [
+							{
+								"label": "Pros",
+								"body": "Fully managed, no accounts receivable required"
+							},
+							{
+								"label": "Cons",
+								"body": "Slightly more expensive rate than discounting"
+							}
+						],
+						"image": "assets/images/invoice-factoring/Factoring.jpg",
+						"fragment": "form",
+						"title": "Invoice Factoring"
+					},
+					{
+						"body": "Discounting provides you with the same credit line as factoring, but you handle the receivables in-house. It's a great solution if you already have resources on hand.",
+						"features": [
+							{
+								"label": "Pros",
+								"body": "Fastest access to credit for business, with lowest rates (from 0.5%)"
+							},
+							{
+								"label": "Cons",
+								"body": "Non payment risk and management handled by you"
+							}
+						],
+						"image": "assets/images/invoice-factoring/Discounting.jpg",
+						"fragment": "form",
+						"title": "Invoice Discounting"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-bottom-right"
+		},
+		{
+			"name": "benefits",
+			"options": {
+				"title": "Getting a quote is quick and simple",
+				"list": {
+					"description": "There are many benefits associated with invoice factoring and? depending on your circumstances, it can revolutionise the way your company works.",
+					"items": [
+						"No assets required for funding",
+						"Non payment risk covered by the factoring company",
+						"Offer 30 - 60 day credit terms to your customers",
+						"Just one quick form to receive your quotes",
+						"Eliminate collection and invoicing time",
+						"You're under absolutely no obligation!"
+					],
+					"title": "What are the benefits?"
+				},
+				"steps": [
+					{
+						"description": "Complete the quick form",
+						"image": "/assets/images/invoice-factoring/benefits/step1.png",
+						"title": "Step 1"
+					},
+					{
+						"description": "Receive & compare no obligation quotes",
+						"image": "/assets/images/invoice-factoring/benefits/step2.png",
+						"title": "Step 2"
+					},
+					{
+						"description": "Receive your cash",
+						"image": "/assets/images/invoice-factoring/benefits/step3.png",
+						"title": "Step 3"
+					}
+				]
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-top-left wave-merge-bottom"
+		},
+		{
+			"name": "relation",
+			"bg": "white",
+			"options": {
+				"order": 1,
+				"body": "<p>Once you win an order from a customer, you agree the credit terms you wold like to give them and process the invoice as normal.</p><p>Next you simply forward the invoice to your provider, upon receipt they wire up to 90% of the invoice value within 12 hours. You are free to use these funds as you wish.</p><p>Once the credit period has expired there is nothing further for you to do, the factoring company deals with the collection, debt recovery and legal proceedings if required.</p>",
+				"title": "How does Invoice Factoring work?",
+				"sub_component": {
+					"name": "image",
+					"options": "/assets/images/invoice-factoring/iStock-175178917.jpg"
+				}
+			}
+		},
+		{
+			"name": "relation",
+			"bg": "white",
+			"options": {
+				"order": 2,
+				"body": "<p>Once you win an order from a customer, you agree the credit terms you would like to give them and process the invoice as normal.</p><p>Next you simply forward the invoice to your provider, upon receipt they wire up to 90% of the invoice value within 12 hours. You are free to use these funds as you wish.</p><p>Once the credit period has expired you take payment from your customer, and settle the invoice with your discounting company for the balance.</p>",
+				"title": "How does Invoice Discounting work?",
+				"blueline": true,
+				"sub_component": {
+					"name": "image",
+					"options": "/assets/images/invoice-factoring/imgpsh_fullsize.jpeg"
+				}
+			}
+		},
+		{
+			"name": "wave",
+			"options": "wave wave-white-bottom-right"
+		},
+		{
+			"name": "relation",
+			"options": {
+				"body": "<p><a href='/'>Deskwize | Invoice Factoring</a> is a trusted broker, offering a quick and simple solution to finding the right invoice factoring or discounting company for your requirements.</p><p>There are many factoring companies in the market and each one is different - set up to handle different cash flow requirements; some operate with SMEs in mind, others are tailored to provide massive finance to internationals and blue chips. With this in mind, it is advisable to compare quotes from multiple companies to ensure your chosen partner can assist with your growing company's needs.</p><p>This would undoubtedly take a lot of time and effort when your precious resources could be used elsewhere. This is where <a href='/'>Deskwize | Invoice Factoring</a> come in. With one quick form you can compare the top UK firms easily. Once your request is submitted, we'll do a manual analysis of your requirements and then pass your details on the best 3 or 4 companies that math your needs. The whole process takes just a few hours to get your tailored quotes back. You are then free to compare, select and move forward with your preferred, no obligation quote.</p><p>Most of the firms in our network will offer a trial of their services by factoring or discounting one or two invoices for you, once you're happy with the rates and customer service you can complete the contracts and start providing your customers with easy credit terms - and relieve the cash flow pressure on your company.</p><p>So complete our quick form and out our highly rated service to the test!</p>",
+				"title": "About us",
+				"sub_component": {
+					"name": "partners",
+					"bg": "white",
+					"options": {
+						"title": "Our network of partners include:",
+						"fragment": "form",
+						"icons": [
+							"/assets/images/invoice-factoring/partners/aldermore.png",
+							"/assets/images/invoice-factoring/partners/capitalise.jpg",
+							"/assets/images/invoice-factoring/partners/lloyds.jpg",
+							"/assets/images/invoice-factoring/partners/hitachi.jpg",
+							"/assets/images/invoice-factoring/partners/sfp.jpg",
+							"/assets/images/invoice-factoring/partners/clear.jpg",
+							"/assets/images/invoice-factoring/partners/touch.jpg"
+						]
+					}
+				}
+			}
+		},
+		{
+			"name": "space",
+			"options": "hidden-lg-down mt-5"
+		}
+	],
+	"questionnaire": {
+		"slides": [
+			{
+				"button": "Compare Rates",
+				"headline": "What type of customers do you have?",
+				"checks": [
+					{
+						"label": "Business only",
+						"name": "customers",
+						"value": "Business only"
+					},
+					{
+						"label": "Consumers only",
+						"name": "customers",
+						"value": "Consumers only"
+					},
+					{
+						"label": "A mixture of both",
+						"name": "customers",
+						"value": "both"
+					},
+					{
+						"label": "Other, please specify",
+						"name": "customers",
+						"value": "",
+						"text_area": "true"
+					}
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					}
+				]
+			},
+			{
+				"headline": "What industries does your comapany operate in?",
+				"checks": [
+					{
+						"label": "Recruitment",
+						"name": "industry",
+						"value": "Recruitment"
+					},
+					{
+						"label": "Construction",
+						"name": "industry",
+						"value": "Construction"
+					},
+					{
+						"label": "Adult, Tickets/gambling, Firearms, Finance, Pharmaceutical, Charities",
+						"name": "industry",
+						"value": "Adult, Tickets/gambling, Firearms, Finance, Pharmaceutical, Charities"
+					},
+					{
+						"label": "Other",
+						"name": "industry",
+						"value": "",
+						"text_area": "true"
+					}
+				]
+			},
+			{
+				"headline": "What is the estimated turnover for next year?",
+				"checks": [
+					{
+						"label": "Under £50,000",
+						"name": "estimated_card_payments",
+						"value": "50,000"
+					},
+					{
+						"label": "£51,000 - £150,000",
+						"name": "estimated_card_payments",
+						"value": "51,000-150,000"
+					},
+					{
+						"label": "£151,000 - £250,000",
+						"name": "estimated_card_payments",
+						"value": "151,000-250,000"
+					},
+					{
+						"label": "£251,000 - £500,000",
+						"name": "estimated_card_payments",
+						"value": "251,000-500,000"
+					},
+					{
+						"label": "£501,000 - £1m",
+						"name": "estimated_card_payments",
+						"value": "501,000-1m"
+					},
+					{
+						"label": "Over £1m",
+						"name": "estimated_card_payments",
+						"value": "0"
+					}
+				]
+			},
+			{
+				"headline": "Your postcode ensures quotes are as accurate as possible for your area",
+				"inputs": [
+					{
+						"label": "Your company's postcode",
+						"name": "business_postcode",
+						"pattern": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+					}
+				]
+			},
+			{
+				"headline": "Hold on - we're finding suppliers that best match your needs",
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					},
+					{
+						"label": "hidenext",
+						"value": "true"
+					},
+					{
+						"label": "autoslide",
+						"value": "2000"
+					}
+				]
+			},
+			{
+				"headline": "Good news! We've found suppliers that match your requirements.<br>Complete your details to get your free quotes",
+				"inputs": [
+					{
+						"label": "Your name",
+						"name": "contact_f_name"
+					},
+					{
+						"label": "Your company's name",
+						"name": "company_name"
+					}
+				]
+			},
+			{
+				"center": "true",
+				"button": "Get Rates",
+				"headline": "",
+				"inputs": [
+					{
+						"label": "Your email address",
+						"name": "email_address",
+						"type": "email"
+					},
+					{
+						"label": "Your company's phone number",
+						"name": "phone_no"
+					}
+				],
+				"style": "blue"
+			},
+			{
+				"headline": "Thanks for choosing Deskwize Invoice Factoring, our teams are now working to find you the best match.",
+				"descriptions": [
+					"Need to speak to us now? You can call us quoting your unique reference number 1000313183",
+					"0208 108 4753 (8am-8pm,Monday to Friday)"
+				],
+				"props": [
+					{
+						"label": "hideback",
+						"value": "true"
+					},
+					{
+						"label": "hidenext",
+						"value": "true"
+					}
+				],
+				"style": "blue"
+			}
+		]
+	},
+	"questionnaire_url": "some-url"
+}

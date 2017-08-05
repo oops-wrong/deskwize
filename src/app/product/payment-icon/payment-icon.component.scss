@@ -1,0 +1,18 @@
+@import "~styles/media";
+
+.payment-icons{
+    width: 100%;
+    img{
+        height: 40px;
+    }
+    @include media("<lg") {
+        img{
+            height: 28px;
+        }
+    }
+    @include media("<md") {
+        div{
+            padding: 0 15px 20px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@import '~styles/variables';
+
+:host {
+    font-size: 0.9rem;
+}
+
+.wrapper{
+    color: $color-text;
+    padding-bottom: 100px;
+}
+.text:before{
+    content: url("/assets/images/review/quote.png");
+    display: block;
+    margin-bottom: 5px;
+}
+.info{
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    .name{
+        font-weight: bold;
+    }
+    .comp{
+        font-style: italic;
+    }
+    .star{
+        height: 12px;
+        background-image: url("/assets/images/review/star.png");
+        @for $i from 1 through 5 {
+            &.star_#{$i} {
+                width: 18px * $i;
+                background-repeat: round;
+            }
+        }
+    }
+}

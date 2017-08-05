@@ -1,0 +1,25 @@
+@import "~styles/media";
+@import "~styles/variables";
+
+:host {
+    font-size: 0.9rem;
+}
+
+.find-list{
+    &>*{
+        padding-right: 30px;
+    }
+}
+@include media("<md") {
+    .find-list{
+        &>*{
+            width: 100%;
+            text-align: center;
+            padding-right: 0;
+        }
+    }
+}
+h4{
+    color: $color-head;
+    font-weight: bold;
+}

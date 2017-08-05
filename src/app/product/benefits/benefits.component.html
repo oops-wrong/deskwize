@@ -1,0 +1,21 @@
+<div class="container benefits theme-{{benefits?.color_theme}}">
+    <shared-title headerClass="pt-3 pb-5" [text]="benefits.title"></shared-title>
+    <div class="row justify-content-center justify-content-lg-start">
+        <div class="col-12 col-lg-7">
+            <div class="benefits__title title">{{benefits.list.title}}</div>
+            <div class="benefits__description text-justify">{{benefits.list.description}}</div>
+            <ul class="benefits__list">
+                <li *ngFor="let item of benefits.list.items" [innerHTML]="item"></li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-8 col-lg-4 mt-4 mt-lg-0">
+            <div *ngFor="let step of benefits.steps" class="step">
+                <div class="step__image" [style.background-image]="'url(' + step.image + ')'"></div>
+                <div class="step__text">
+                    <div class="step__title title">{{step.title}}</div>
+                    <div class="step__description">{{step.description}}</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

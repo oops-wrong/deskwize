@@ -1,0 +1,115 @@
+<main-navbar [mainMenuItems]="mainMenuItems"></main-navbar>
+
+<main-header></main-header>
+
+<shared-title text="Popular Products & Services"></shared-title>
+
+<div class="container">
+	<div class="row">
+		<main-popular-product class="col-lg-8 col-md-12" [bgImage]="'assets/images/popular/001.jpg'" [icon]="'icon_3'" [text]="'Merchant terminals'"
+		 [url]="productRoutePrefix + '/merchant-accounts'"></main-popular-product>
+		<main-popular-product class="col-lg-4 col-md-6" [bgImage]="'assets/images/popular/006.jpg'" [icon]="'icon_1'" [text]="'Bridging Loans'"
+		 [url]="productRoutePrefix + '/bridging-loans'"></main-popular-product>
+		<main-popular-product class="col-lg-4 col-md-6" [bgImage]="'assets/images/popular/003.jpg'" [icon]="'icon_5'" [text]="'Vehicle tracking'"
+		 [url]="productRoutePrefix + '/vehicle-tracking'"></main-popular-product>
+		<main-popular-product class="col-lg-4 col-md-6" [bgImage]="'assets/images/popular/004.jpg'" [icon]="'icon_6'" [text]="'CRM software'"
+		 [url]="productRoutePrefix + '/crm-software'"></main-popular-product>
+		<main-popular-product class="col-lg-4 col-md-6" [bgImage]="'assets/images/popular/007.jpg'" [icon]="'icon_2'" [text]="'Invoice Factoring'"
+		 [url]="productRoutePrefix + '/invoice-factoring'"></main-popular-product>
+	</div>
+</div>
+
+<div class="wave wave-white-top-left">
+</div>
+
+<div class="bg-white">
+	<shared-title text="It's never been easier to find products or services for your business"></shared-title>
+
+	<main-findcard></main-findcard>
+</div>
+
+<div class="container-fluid pb-5">
+	<div class="wave wave-white-bottom-left wave-cover-top">
+	</div>
+	<div class="row reviewers d-flex flex-row justify-content-center align-items-center">
+		<div class="col">
+			<h2 class="text-white text-center font-weight-bold pt-5">
+				Deskwize is already loved by<br> thousands of buisnesses
+			</h2>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid pb-5">
+	<div class="container">
+		<div class="row">
+			<main-review [text]="'I have been trying to find information to get a credit card terminal for our business. It was so difficult to find the right information and suppliers. Finally, your website helped me search and compare my options. Experience was awesome. Thanks so much'" [reviewerName]="'James Sanderson'" [reviewerCompanyName]="'TVZ International'"></main-review>
+			<main-review [text]="'Wow…..this is 5th time I am getting
+                quotes for one of the services. Most of
+                things my boss required me to source, I
+                have usually had no clue where to start,
+                till I found Deskwize. Your site helped me
+                understand the product in minutes and
+                connects me to some great companies.
+                We have made mega savings using
+                Deskwize. Many thanks.'" [reviewerName]="'Kelly Parker'" [reviewerCompanyName]="'Innovative Solutions '"></main-review>
+			<main-review [text]="'We found our supplier in Scotland and
+                their prices were so competitive than
+                the rest of the companies in Reading. We
+                would have never looked so far. The service is great. 
+                5 star ratings. Well done Deskwize team.'" [reviewerName]="'Steve Butler'" [reviewerCompanyName]="'MK Group of Companies'"></main-review>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="wave wave-gray-bottom-right wave-cover-top">
+	</div>
+	<div class="row big-tablet">
+	</div>
+	<div class="wave wave-gray-top-right wave-cover-bottom">
+	</div>
+</div>
+
+<shared-blueline></shared-blueline>
+
+<shared-title text="Finding products & services for your business is hard"></shared-title>
+<div class="container pb-5">
+	<div class="row">
+		<div class="col">
+			<div class="find-roducts-text text-center">
+				<p>
+					Most of the business professionals struggle to find the products and the services they need for their business. Products
+					and services for businesses are complicated, most of the people don’t even know what they require in the first place.
+					The providers are hard to find, it takes hours to request quotes from different providers and compare them all in one
+					place.
+				</p>
+				<p>
+					Deskwize is an online platform that helps business professionals to learn, find and compare the products and the services
+					they require for their business. By getting tailored quotes from the top providers we save you lot of time and get you
+					the best providers at the most competitive prices. So, let us do the hard work. Sit back, relax and wait for those quotes
+					to come to you.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wave wave-white-top-left wave-merge-bottom">
+</div>
+
+<div class="bg-white pb-5">
+	<shared-title text="Deskwize Helps Businesses"></shared-title>
+	<div class="container">
+		<div class="row">
+			<shared-icongrid [icon]="'assets/images/businesses/b_icon_1.png'" [text]="'To learn more about business products and services with our expert guides'">
+			</shared-icongrid>
+			<shared-icongrid [icon]="'assets/images/businesses/b_icon_2.png'" [text]="'To narrow down their search and work out their specific requirements'">
+			</shared-icongrid>
+			<shared-icongrid [icon]="'assets/images/businesses/b_icon_3.png'" [text]="'Request multiple tailored quotes from top providers using one form'">
+			</shared-icongrid>
+			<shared-icongrid [icon]="'assets/images/businesses/b_icon_4.png'" [text]="'Compare and choose the best providers'">
+			</shared-icongrid>
+		</div>
+	</div>
+</div>

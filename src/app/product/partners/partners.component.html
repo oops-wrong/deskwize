@@ -1,0 +1,16 @@
+<div class="partners">
+    <div class="partners__title">{{partners.title}}</div>
+
+    <div class="partners__icons">
+        <div *ngFor="let icon of partners.icons" class="partners__icon">
+            <img [src]="icon" alt="">
+        </div>
+    </div>
+
+    <div class="partners__btn">
+        <button class="btn btn-warning btn-questionnaire" type="button" [routerLink]="partners.link" [fragment]="partners.fragment">
+            <span class="btn-questionnaire__text">GET A QUOTE</span>
+            <i class="glyph-icon fi flaticon-arrows"></i>
+        </button>
+    </div>
+</div>

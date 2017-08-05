@@ -1,0 +1,51 @@
+@import "~styles/media";
+@import '~styles/variables';
+
+$itemsBorderRadius: 7px;
+$itemsHeight: 62px;
+
+.find-product {
+    color:$color-text;
+
+    &__input {
+        border: 0;
+        border-radius: $itemsBorderRadius;
+        font-size: 1rem;
+        height: $itemsHeight;
+    }
+
+    &__btn {
+        border-radius: $itemsBorderRadius;
+        font-size: 1rem;
+        font-weight: bold;
+        height: $itemsHeight;
+    }
+
+    .completer-dropdown {
+        border-top-width: 0 !important;
+        border-radius: $itemsBorderRadius !important;
+        font-size: 1rem;
+        margin-top: -7px !important;
+        max-width: 100vw;
+        padding: 14px;
+        width: 100% !important;
+        z-index: 10 !important;
+
+        @include media("<md") {
+            margin-top: -9px !important;
+        }
+    }
+    .completer-image-holder {
+        width: 0;
+    }
+    .completer-item-text-image {
+        width: 0;
+    }
+    .completer-row,
+    .completer-searching,
+    .completer-no-results {
+        margin-bottom: 4px;
+        padding: 5px;
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,51 @@
+@import "~styles/variables";
+
+.relation {
+    &__sub-component {
+        order: 1;
+    }
+
+    &__title {
+        color: $color-green;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0.3rem 0 1.2rem 3rem;
+            position: relative;
+
+            &:before {
+                background: url(/assets/images/shared/tick-inside-a-circle.svg) no-repeat;
+                background-size: cover;
+                content: '';
+                height: 2rem;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 2rem;
+            }
+        }
+    }
+}
+
+.theme-orange {
+    .relation {
+        &__list {
+            li {
+                &:before {
+                    background: url(/assets/images/shared/tick-inside-a-circle-orange.svg) no-repeat;
+                }
+            }
+        }
+        &__title {
+            color: $color-orange;
+        }
+    }
+}

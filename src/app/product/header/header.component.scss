@@ -1,0 +1,123 @@
+@import "~styles/media";
+@import "~styles/variables";
+
+:host {
+    font-size: 1.2rem;
+}
+
+.header-component {
+    background: $prod-bg-header url("/assets/images/product/product_bg.png") center top;
+    color: #fff;
+    padding-top: 100px;
+
+    @include media(">=lg") {
+        padding-top: 120px;
+    }
+}
+.product-image {
+    @include media(">=md") {
+        position: absolute;
+        right: 0;
+        top: 150px;
+    }
+    @include media(">=lg") {
+        position: absolute;
+        left: 50%;
+        top: 150px;
+        margin-left: -$prod-header-image-size/1.5;
+    }
+    width: $prod-header-image-size;
+    height: $prod-header-image-size;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(#000, .3);
+
+    span {
+      overflow: hidden;
+      position: relative;
+      height: 210px;
+      background-size: cover;
+      background-position: center center;
+      width: 210px;
+    }
+}
+.h1 {
+    line-height: 1;
+    text-shadow: 1px 1px $prod-bg-header;
+}
+.payment-icons {
+    margin: 0;
+    padding-bottom: 60px;
+
+    li {
+        margin-right: 0.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    img {
+        height: 46px;
+    }
+}
+
+.text-header {
+    @include media("<=md") {
+        font-size: 1.6rem;
+    }
+}
+
+.check-list {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+        margin: 0 0 1.3rem 0;
+        padding-left: 2rem;
+        position: relative;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:after {
+            background: url(/assets/images/product/check.svg) no-repeat;
+            background-size: contain;
+            content: '';
+            height: 22px;
+            left: 0;
+            position: absolute;
+            top: 4px;
+            width: 22px;
+        }
+    }
+}
+
+.icons-description {
+    display: inline-block;
+    font-size: 0.6rem;
+}
+
+.theme-green {
+    &.header-component {
+        background-color: #777E86;
+        background-image: url(/assets/images/product/product_bg_green.jpg);
+    }
+}
+
+.theme-deep-green {
+    background: url(/assets/images/product/product_bg_deep_green.png) no-repeat center;
+    background-size: cover;
+}
+
+.theme-blue {
+    background: url(/assets/images/product/product_bg_blue.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.theme-orange {
+    background: url(/assets/images/product/product_bg_orange.png) no-repeat center;
+    background-size: cover;
+}

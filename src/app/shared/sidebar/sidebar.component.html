@@ -1,0 +1,14 @@
+<div class="sidebar" [style.width.px]="sidebar.width" [style.right.px]="sidebar.right">
+    <div class="close-btn" (click)="close()">&times;</div>
+    <ul class="sidebar__list">
+        <li *ngFor="let menuItem of mainMenuItems" class="sidebar__list-item mb-2">
+            <a [routerLink]="menuItem.link" routerLinkActive="active" queryParamsHandling="merge" (click)="close()">{{menuItem.display}}</a>
+        </li>
+    </ul>
+    <shared-blueline *ngIf="mainMenuItems && mainMenuItems.length > 0"></shared-blueline>
+    <ul class="sidebar__list">
+        <li *ngFor="let sidebarProduct of sidebarProducts" class="sidebar__list-item mb-2">
+            <a [routerLink]="sidebarProduct.link" routerLinkActive="active" queryParamsHandling="merge" (click)="close()">{{sidebarProduct.display}}</a>
+        </li>
+    </ul>
+</div>
